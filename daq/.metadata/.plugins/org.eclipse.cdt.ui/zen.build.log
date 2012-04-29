@@ -1,0 +1,116 @@
+
+**** Build of configuration Debug for project zen ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: ../i2s.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="i2s.pp"  "../i2s.c"
+"../i2s.c", line 23: error: identifier "Bool" is undefined
+"../i2s.c", line 24: error: identifier "Bool" is undefined
+"../i2s.c", line 25: error: identifier "Bool" is undefined
+"../i2s.c", line 26: error: identifier "Bool" is undefined
+"../i2s.c", line 27: error: identifier "Int16" is undefined
+"../i2s.c", line 29: error: identifier "Int16" is undefined
+"../i2s.c", line 30: error: identifier "Int16" is undefined
+"../i2s.c", line 32: error: identifier "Int16" is undefined
+"../i2s.c", line 33: error: identifier "PSP_I2SInstanceId" is undefined
+"../i2s.c", line 34: error: identifier "Bool" is undefined
+"../i2s.c", line 35: error: identifier "Bool" is undefined
+"../i2s.c", line 36: error: identifier "Bool" is undefined
+"../i2s.c", line 37: error: identifier "Bool" is undefined
+"../i2s.c", line 38: error: identifier "Int16" is undefined
+"../i2s.c", line 40: error: identifier "Int16" is undefined
+"../i2s.c", line 41: error: identifier "Int16" is undefined
+"../i2s.c", line 43: error: identifier "Int16" is undefined
+"../i2s.c", line 44: error: identifier "PSP_I2SInstanceId" is undefined
+"../i2s.c", line 45: error: identifier "Int16" is undefined
+"../i2s.c", line 173: error: identifier "Uint16" is undefined
+"../i2s.c", line 173: error: identifier "I2S_TXBUFF_SZ" is undefined
+"../i2s.c", line 175: error: identifier "Uint16" is undefined
+"../i2s.c", line 180: error: identifier "Uint16" is undefined
+"../i2s.c", line 180: error: identifier "I2S_RXBUFF_SZ" is undefined
+"../i2s.c", line 182: error: identifier "Uint16" is undefined
+"../i2s.c", line 184: error: identifier "Uint16" is undefined
+"../i2s.c", line 201: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 202: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 204: error: identifier "Uint16" is undefined
+"../i2s.c", line 205: error: identifier "Uint16" is undefined
+"../i2s.c", line 208: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 209: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 210: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 211: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 218: error: identifier "Uint16" is undefined
+"../i2s.c", line 218: error: identifier "CODEC_INPUT_BUFFER_SIZE" is undefined
+"../i2s.c", line 220: error: identifier "Uint16" is undefined
+"../i2s.c", line 222: error: identifier "Uint16" is undefined
+"../i2s.c", line 223: error: identifier "Uint32" is undefined
+"../i2s.c", line 224: error: identifier "Uint32" is undefined
+"../i2s.c", line 227: error: identifier "Int16" is undefined
+"../i2s.c", line 227: error: identifier "MAX_I2S_TXBUFF_SZ" is undefined
+"../i2s.c", line 229: error: identifier "Int16" is undefined
+"../i2s.c", line 231: error: identifier "Int16" is undefined
+"../i2s.c", line 233: error: identifier "Uint16" is undefined
+"../i2s.c", line 235: error: identifier "Bool" is undefined
+"../i2s.c", line 236: error: identifier "Uint16" is undefined
+"../i2s.c", line 237: error: identifier "Uint16" is undefined
+"../i2s.c", line 240: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 241: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 244: error: identifier "Uint16" is undefined
+"../i2s.c", line 245: error: identifier "Int16" is undefined
+"../i2s.c", line 247: error: identifier "Uint16" is undefined
+"../i2s.c", line 248: error: identifier "Int16" is undefined
+"../i2s.c", line 251: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 253: error: identifier "DMA_ChanHandle" is undefined
+"../i2s.c", line 256: error: identifier "Uint16" is undefined
+"../i2s.c", line 257: error: identifier "Uint16" is undefined
+"../i2s.c", line 258: error: identifier "Uint16" is undefined
+"../i2s.c", line 259: error: identifier "Uint32" is undefined
+"../i2s.c", line 260: error: identifier "Uint32" is undefined
+"../i2s.c", line 263: error: identifier "Int16" is undefined
+"../i2s.c", line 265: error: identifier "Int16" is undefined
+"../i2s.c", line 267: error: identifier "Int16" is undefined
+"../i2s.c", line 269: error: identifier "Uint16" is undefined
+"../i2s.c", line 271: error: identifier "Bool" is undefined
+"../i2s.c", line 272: error: identifier "Uint16" is undefined
+"../i2s.c", line 273: error: identifier "Uint16" is undefined
+"../i2s.c", line 279: error: identifier "Uint32" is undefined
+"../i2s.c", line 280: error: identifier "Uint32" is undefined
+"../i2s.c", line 281: error: identifier "Uint32" is undefined
+"../i2s.c", line 282: error: identifier "Uint32" is undefined
+"../i2s.c", line 283: error: identifier "Uint32" is undefined
+"../i2s.c", line 285: error: identifier "Uint32" is undefined
+"../i2s.c", line 287: error: identifier "Uint32" is undefined
+"../i2s.c", line 294: error: identifier "Uint32" is undefined
+"../i2s.c", line 296: error: identifier "Uint16" is undefined
+"../i2s.c", line 297: error: identifier "Uint16" is undefined
+"../i2s.c", line 298: error: identifier "Uint16" is undefined
+"../i2s.c", line 299: error: identifier "Int16" is undefined
+"../i2s.c", line 300: error: identifier "Uint32" is undefined
+"../i2s.c", line 304: error: identifier "Bool" is undefined
+"../i2s.c", line 305: error: identifier "Bool" is undefined
+"../i2s.c", line 306: error: identifier "Int16" is undefined
+"../i2s.c", line 307: error: identifier "Int16" is undefined
+"../i2s.c", line 308: error: identifier "Int16" is undefined
+"../i2s.c", line 309: error: identifier "Int16" is undefined
+"../i2s.c", line 310: error: identifier "Int16" is undefined
+"../i2s.c", line 320: error: identifier "Int16" is undefined
+"../i2s.c", line 320: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 321: error: identifier "Uint32" is undefined
+"../i2s.c", line 322: error: identifier "Uint32" is undefined
+"../i2s.c", line 325: error: identifier "Int16" is undefined
+"../i2s.c", line 325: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 326: error: identifier "Uint32" is undefined
+"../i2s.c", line 327: error: identifier "Uint32" is undefined
+"../i2s.c", line 329: error: identifier "Int16" is undefined
+"../i2s.c", line 329: error: identifier "PSP_Handle" is undefined
+"../i2s.c", line 331: error: identifier "DDC_I2SHandle" is undefined
+"../i2s.c", line 331: error: identifier "Uint16" is undefined
+Error limit reached.
+100 errors detected in the compilation of "../i2s.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [i2s.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

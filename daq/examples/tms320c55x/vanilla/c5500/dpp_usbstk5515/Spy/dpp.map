@@ -1,0 +1,599 @@
+******************************************************************************
+              TMS320C55x Linker PC v4.4.0                      
+******************************************************************************
+>> Linked Wed Feb 22 15:59:02 2012
+
+OUTPUT FILE NAME:   <dpp.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00017ddf
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+                        (bytes)   (bytes)    (bytes)   (bytes)
+----------------------  --------  ---------  --------  --------  ----  --------
+  MMR                   00000000   000000c0  00000000  000000c0  RW  
+  DARAM                 000000c0   0000ff40  00000100  0000fe40  RW  
+  SARAM                 00010000   0003e000  0000978a  00034876  RW  
+  EMIF_CS0              00050000   007b0000  00000000  007b0000  RW  
+  EMIF_CS2              00800000   00400000  00000000  00400000  RW  
+  EMIF_CS3              00c00000   00200000  00000000  00200000  RW  
+  EMIF_CS4              00e00000   00100000  00000000  00100000  RW  
+  EMIF_CS5              00f00000   000e0000  00000000  000e0000  RW  
+
+
+SECTION ALLOCATION MAP
+(Addresses surrounded by []'s are displayed for convenience only!)
+
+output                                                          attributes/
+section   page  orgn(bytes) orgn(words) len(bytes) len(words)   input sections
+--------  ----  ----------- ----------- ---------- ----------   --------------
+.pinit       0   [ 00010000 ]  00008000          *   00000000   UNINITIALIZED
+
+vectors      0     00000100  [ 00000080 ] 00000100          *   NOLOAD SECTION
+                   00000100  [ 00000080 ] 00000100          *   vectors.obj (vectors)
+
+.text        0     00010000  [ 00008000 ] 00007e44          *   
+                   00010000  [ 00008000 ] 00002b04          *   qp5515_large.lib : qs_port.obj (.text)
+                   00012b04  [ 00009582 ] 000010e1          *   cslVC5505_Lib.lib : csl_uart.obj (.text)
+                   00013be5  [ 00009df2+] 00000875          *   qp5515_large.lib : qhsm_dis.obj (.text)
+                   0001445a  [ 0000a22d ] 000006cf          *   philo.obj (.text)
+                   00014b29  [ 0000a594+] 0000068d          *   cslVC5505_Lib.lib : csl_gpio.obj (.text)
+                   000151b6  [ 0000a8db ] 00000554          *                     : csl_intc.obj (.text)
+                   0001570a  [ 0000ab85 ] 0000049f          *   table.obj (.text)
+                   00015ba9  [ 0000add4+] 0000041a          *   bsp.obj (.text)
+                   00015fc3  [ 0000afe1+] 0000032f          *   bsp.obj (.text:retain)
+                   000162f2  [ 0000b179 ] 000002ad          *   cslVC5505_Lib.lib : csl_pll.obj (.text)
+                   0001659f  [ 0000b2cf+] 00000253          *   main.obj (.text)
+                   000167f2  [ 0000b3f9 ] 00000226          *   qp5515_large.lib : qhsm_ini.obj (.text)
+                   00016a18  [ 0000b50c ] 000001e4          *                    : qa_get_.obj (.text)
+                   00016bfc  [ 0000b5fe ] 000001a1          *                    : qf_tick.obj (.text)
+                   00016d9d  [ 0000b6ce+] 00000179          *                    : qmp_init.obj (.text)
+                   00016f16  [ 0000b78b ] 00000175          *                    : qf_act.obj (.text)
+                   0001708b  [ 0000b845+] 00000140          *                    : qa_fifo.obj (.text)
+                   000171cb  [ 0000b8e5+] 00000115          *                    : qf_pspub.obj (.text)
+                   000172e0  [ 0000b970 ] 00000114          *                    : qmp_get.obj (.text)
+                   000173f4  [ 0000b9fa ] 000000fd          *                    : qa_sub.obj (.text)
+                   000174f1  [ 0000ba78+] 000000ee          *                    : qte_arm.obj (.text)
+                   000175df  [ 0000baef+] 000000ec          *                    : qf_new.obj (.text)
+                   000176cb  [ 0000bb65+] 000000ea          *                    : qf_gc.obj (.text)
+                   000177b5  [ 0000bbda+] 000000e2          *                    : qvanilla.obj (.text)
+                   00017897  [ 0000bc4b+] 000000de          *                    : qmp_put.obj (.text)
+                   00017975  [ 0000bcba+] 000000a1          *   rts55x.lib : divul.obj (.text)
+                   00017a16  [ 0000bd0b ] 00000097          *   qp5515_large.lib : qeq_init.obj (.text)
+                   00017aad  [ 0000bd56+] 0000008c          *   cslVC5505_Lib.lib : csl_irqplug.obj (.text)
+                   00017b39  [ 0000bd9c+] 00000088          *   qp5515_large.lib : qf_pool.obj (.text)
+                   00017bc1  [ 0000bde0+] 00000081          *                    : qf_port.obj (.text)
+                   00017c42  [ 0000be21 ] 00000072          *   rts55x.lib : remul.obj (.text)
+                   00017cb4  [ 0000be5a ] 00000055          *   qp5515_large.lib : qte_ctor.obj (.text)
+                   00017d09  [ 0000be84+] 0000004d          *   rts55x.lib : autoinit.obj (.text)
+                   00017d56  [ 0000beab ] 0000004b          *              : args_main.obj (.text)
+                   00017da1  [ 0000bed0+] 0000003e          *              : exit.obj (.text)
+                   00017ddf  [ 0000beef+] 00000034          *              : boot.obj (.text)
+                   00017e13  [ 0000bf09+] 00000012          *              : _lock.obj (.text)
+                   00017e25  [ 0000bf12+] 0000000e          *   qp5515_large.lib : qhsm_top.obj (.text)
+                   00017e33  [ 0000bf19+] 00000008          *                    : qep.obj (.text)
+                   00017e3b  [ 0000bf1d+] 00000007          *   rts55x.lib : exit.obj (.text:CIO_breakpoint)
+                   00017e42  [ 0000bf21 ] 00000002          *   --HOLE-- [fill = 20]
+
+.data        0   [ 00010000 ]  00008000          *   00000000   UNINITIALIZED
+
+.const       0   [ 00017e44 ]  0000bf22          *   00000486   
+                 [ 00017e44 ]  0000bf22          *   00000100   qp5515_large.lib : qf_log2.obj (.const:_QF_log2Lkup)
+                 [ 00018044 ]  0000c022          *   00000041                    : qf_pwr2.obj (.const:_QF_div8Lkup)
+                 [ 000180c6 ]  0000c063          *   00000041                    : qf_pwr2.obj (.const:_QF_invPwr2Lkup)
+                 [ 00018148 ]  0000c0a4          *   00000041                    : qf_pwr2.obj (.const:_QF_pwr2Lkup)
+                 [ 000181ca ]  0000c0e5          *   00000001   bsp.obj (.const)
+                 [ 000181cc ]  0000c0e6          *   0000001d   table.obj (.const:.string)
+                 [ 00018206 ]  0000c103          *   00000014   philo.obj (.const:_obj_name__$11)
+                 [ 0001822e ]  0000c117          *   00000014   philo.obj (.const:_obj_name__$3)
+                 [ 00018256 ]  0000c12b          *   00000014   philo.obj (.const:_obj_name__$5)
+                 [ 0001827e ]  0000c13f          *   00000014   philo.obj (.const:_obj_name__$7)
+                 [ 000182a6 ]  0000c153          *   00000014   philo.obj (.const:_obj_name__$9)
+                 [ 000182ce ]  0000c167          *   00000013   main.obj (.const:_obj_name__$3)
+                 [ 000182f4 ]  0000c17a          *   00000013   main.obj (.const:_obj_name__$4)
+                 [ 0001831a ]  0000c18d          *   00000013   main.obj (.const:_obj_name__$5)
+                 [ 00018340 ]  0000c1a0          *   00000013   main.obj (.const:_obj_name__$6)
+                 [ 00018366 ]  0000c1b3          *   00000013   main.obj (.const:_obj_name__$7)
+                 [ 0001838c ]  0000c1c6          *   00000010   philo.obj (.const:_fun_name__$13)
+                 [ 000183ac ]  0000c1d6          *   00000010   main.obj (.const:_obj_name__$2)
+                 [ 000183cc ]  0000c1e6          *   0000000f   philo.obj (.const:_fun_name__$12)
+                 [ 000183ea ]  0000c1f5          *   0000000f   table.obj (.const:_fun_name__$3)
+                 [ 00018408 ]  0000c204          *   0000000f   table.obj (.const:_fun_name__$4)
+                 [ 00018426 ]  0000c213          *   0000000e   philo.obj (.const:_fun_name__$14)
+                 [ 00018442 ]  0000c221          *   0000000e   philo.obj (.const:_fun_name__$15)
+                 [ 0001845e ]  0000c22f          *   0000000e   table.obj (.const:_sig_name__$7)
+                 [ 0001847a ]  0000c23d          *   0000000d   main.obj (.const:_obj_name__$1)
+                 [ 00018494 ]  0000c24a          *   0000000c   qp5515_large.lib : qep.obj (.const:_QEP_reservedEvt_)
+                 [ 000184ac ]  0000c256          *   0000000c   philo.obj (.const:_obj_name__$10)
+                 [ 000184c4 ]  0000c262          *   0000000c   philo.obj (.const:_obj_name__$2)
+                 [ 000184dc ]  0000c26e          *   0000000c   bsp.obj (.const:_obj_name__$3)
+                 [ 000184f4 ]  0000c27a          *   0000000c   philo.obj (.const:_obj_name__$4)
+                 [ 0001850c ]  0000c286          *   0000000c   philo.obj (.const:_obj_name__$6)
+                 [ 00018524 ]  0000c292          *   0000000c   philo.obj (.const:_obj_name__$8)
+                 [ 0001853c ]  0000c29e          *   0000000c   philo.obj (.const:_sig_name__$17)
+                 [ 00018554 ]  0000c2aa          *   0000000b   philo.obj (.const:_l_this_file)
+                 [ 0001856a ]  0000c2b5          *   0000000b   table.obj (.const:_l_this_file)
+                 [ 00018580 ]  0000c2c0          *   0000000b   philo.obj (.const:_sig_name__$16)
+                 [ 00018596 ]  0000c2cb          *   0000000b   table.obj (.const:_sig_name__$8)
+                 [ 000185ac ]  0000c2d6          *   0000000a   philo.obj (.const:_AO_Philo)
+                 [ 000185c0 ]  0000c2e0          *   0000000a   table.obj (.const:_fun_name__$2)
+                 [ 000185d4 ]  0000c2ea          *   00000009   qp5515_large.lib : qf_pspub.obj (.const:_l_this_file)
+                 [ 000185e6 ]  0000c2f3          *   00000009                    : qhsm_dis.obj (.const:_l_this_file)
+                 [ 000185f8 ]  0000c2fc          *   00000009                    : qhsm_ini.obj (.const:_l_this_file)
+                 [ 0001860a ]  0000c305          *   00000009                    : qmp_init.obj (.const:_l_this_file)
+                 [ 0001861c ]  0000c30e          *   00000009                    : qte_ctor.obj (.const:_l_this_file)
+                 [ 0001862e ]  0000c317          *   00000009                    : qvanilla.obj (.const:_l_this_file)
+                 [ 00018640 ]  0000c320          *   00000009   table.obj (.const:_obj_name__$1)
+                 [ 00018652 ]  0000c329          *   00000009   table.obj (.const:_sig_name__$5)
+                 [ 00018664 ]  0000c332          *   00000008   qp5515_large.lib : qa_fifo.obj (.const:_l_this_file)
+                 [ 00018674 ]  0000c33a          *   00000008                    : qa_get_.obj (.const:_l_this_file)
+                 [ 00018684 ]  0000c342          *   00000008                    : qf_pool.obj (.const:_l_this_file)
+                 [ 00018694 ]  0000c34a          *   00000008                    : qmp_get.obj (.const:_l_this_file)
+                 [ 000186a4 ]  0000c352          *   00000008                    : qmp_put.obj (.const:_l_this_file)
+                 [ 000186b4 ]  0000c35a          *   00000008                    : qte_arm.obj (.const:_l_this_file)
+                 [ 000186c4 ]  0000c362          *   00000008   table.obj (.const:_sig_name__$6)
+                 [ 000186d4 ]  0000c36a          *   00000007   qp5515_large.lib : qa_sub.obj (.const:_l_this_file)
+                 [ 000186e2 ]  0000c371          *   00000007                    : qf_act.obj (.const:_l_this_file)
+                 [ 000186f0 ]  0000c378          *   00000007                    : qf_new.obj (.const:_l_this_file)
+                 [ 000186fe ]  0000c37f          *   00000007                    : qep.obj (.const:_version$1)
+                 [ 0001870c ]  0000c386          *   00000007                    : qf_act.obj (.const:_version$1)
+                 [ 0001871a ]  0000c38d          *   00000007                    : qs_port.obj (.const:_version$1)
+                 [ 00018728 ]  0000c394          *   00000006                    : qf_gc.obj (.const:_l_this_file)
+                 [ 00018734 ]  0000c39a          *   00000004   bsp.obj (.const:_$P$T0$2)
+                 [ 0001873c ]  0000c39e          *   00000004   bsp.obj (.const:_l_userLED)
+                 [ 00018744 ]  0000c3a2          *   00000003   bsp.obj (.const:_testEvt$1)
+                 [ 0001874a ]  0000c3a5          *   00000001   --HOLE-- [fill = 0]
+                 [ 0001874c ]  0000c3a6          *   00000002   table.obj (.const)
+
+.bss         0   [ 00018750 ]  0000c3a8          *   0000041c   UNINITIALIZED
+                 [ 00018750 ]  0000c3a8          *   00000216   bsp.obj (.bss)
+                 [ 00018b7c ]  0000c5be          *   00000084   cslVC5505_Lib.lib : csl_intc.obj (.bss)
+                 [ 00018c84 ]  0000c642          *   00000083   philo.obj (.bss)
+                 [ 00018d8a ]  0000c6c5          *   00000001   qp5515_large.lib : qf_tick.obj (.bss)
+                 [ 00018d8c ]  0000c6c6          *   0000006c   main.obj (.bss)
+                 [ 00018e64 ]  0000c732          *   00000038   qp5515_large.lib : qs_port.obj (.bss)
+                 [ 00018ed4 ]  0000c76a          *   0000001f                    : qf_pool.obj (.bss)
+                 [ 00018f12 ]  0000c789          *   00000001                    : qvanilla.obj (.bss)
+                 [ 00018f14 ]  0000c78a          *   00000018   table.obj (.bss)
+                 [ 00018f44 ]  0000c7a2          *   00000013   qp5515_large.lib : qf_act.obj (.bss)
+                 [ 00018f6a ]  0000c7b5          *   00000001   --HOLE--
+                 [ 00018f6c ]  0000c7b6          *   00000004                    : qf_port.obj (.bss)
+                 [ 00018f74 ]  0000c7ba          *   00000004   rts55x.lib : _lock.obj (.bss)
+                 [ 00018f7c ]  0000c7be          *   00000004              : exit.obj (.bss)
+                 [ 00018f84 ]  0000c7c2          *   00000002   qp5515_large.lib : qte_arm.obj (.bss)
+
+.stack       0   [ 00018f88 ]  0000c7c4          *   000001f4   UNINITIALIZED
+                 [ 00018f88 ]  0000c7c4          *   000001f4   --HOLE--
+
+.sysstack 
+*            0   [ 00019370 ]  0000c9b8          *   000001f4   UNINITIALIZED
+                 [ 00019370 ]  0000c9b8          *   000001f4   --HOLE--
+
+.cinit       0   [ 00019758 ]  0000cbac          *   00000019   
+                 [ 00019758 ]  0000cbac          *   0000000a   rts55x.lib : _lock.obj (.cinit)
+                 [ 0001976c ]  0000cbb6          *   0000000a              : exit.obj (.cinit)
+                 [ 00019780 ]  0000cbc0          *   00000004   philo.obj (.cinit)
+                 [ 00019788 ]  0000cbc4          *   00000001   --HOLE-- [fill = 0]
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000001                $TI_capability_requires_rev3
+            0000c3a8    .bss
+            00008000    .data
+00010000                .text
+00017e3c                C$$EXIT
+            0000c2d6    _AO_Philo
+            0000c3a6    _AO_Table
+00015fc1                _BSP_busyDelay
+00015f12                _BSP_displyPhilStat
+00015e14                _BSP_init
+00015014                _GPIO_clearInt
+00014b6d                _GPIO_close
+00014b91                _GPIO_config
+00014dc4                _GPIO_configBit
+00014f0c                _GPIO_disableInt
+00014f8a                _GPIO_enableInt
+00014c16                _GPIO_getConfig
+00014b29                _GPIO_open
+00014c9e                _GPIO_read
+00015127                _GPIO_reset
+000150a0                _GPIO_statusBit
+00014d21                _GPIO_write
+00015250                _IRQ_clear
+000152ba                _IRQ_clearAll
+000152ca                _IRQ_config
+000153f0                _IRQ_disable
+0001546e                _IRQ_disableAll
+0001547c                _IRQ_enable
+00015576                _IRQ_getArg
+0001535d                _IRQ_getConfig
+000156c4                _IRQ_globalDisable
+000156dd                _IRQ_globalEnable
+000156f6                _IRQ_globalRestore
+000151b6                _IRQ_init
+000155ef                _IRQ_map
+00017aad                _IRQ_plug
+00015506                _IRQ_restore
+000155bc                _IRQ_setArg
+00015621                _IRQ_setVecs
+00015652                _IRQ_test
+000164e4                _PLL_bypass
+00016354                _PLL_config
+0001647d                _PLL_enable
+0001631c                _PLL_init
+00016533                _PLL_reset
+00014adc                _Philo_ctor
+000149e1                _Philo_eating
+00014924                _Philo_hungry
+0001450e                _Philo_initial
+0001445a                _Philo_thinking
+00016a18                _QActive_get_
+0001708b                _QActive_postFIFO
+00017823                _QActive_start
+0001788a                _QActive_stop
+000173f4                _QActive_subscribe
+00017e33                _QEP_getVersion
+            0000c24a    _QEP_reservedEvt_
+00017a16                _QEQueue_init
+            0000c7a2    _QF_active_
+00016f1e                _QF_add_
+            0000c022    _QF_div8Lkup
+000176cb                _QF_gc
+00017394                _QF_getPoolMargin
+00016b94                _QF_getQueueMargin
+00016f16                _QF_getVersion
+000177b5                _QF_init
+            0000c7b4    _QF_intLockNest_
+            0000c063    _QF_invPwr2Lkup
+            0000bf22    _QF_log2Lkup
+            0000c788    _QF_maxPool_
+            0000c7b6    _QF_maxSignal_
+000175df                _QF_new_
+00015d58                _QF_onCleanup
+00015d1d                _QF_onIdle
+00015cd9                _QF_onStartup
+00017b39                _QF_poolInit
+            0000c76a    _QF_pool_
+00017c22                _QF_psInit
+000171cb                _QF_publish
+            0000c0a4    _QF_pwr2Lkup
+            0000c789    _QF_readySet_
+00016fd1                _QF_remove_
+000177c1                _QF_run
+000177b7                _QF_stop
+            0000c7b8    _QF_subscrList_
+00016bfc                _QF_tick
+            0000c7c2    _QF_timeEvtListHead_
+00017bf0                _QF_zero
+00013be5                _QHsm_dispatch
+000167f2                _QHsm_init
+00017e25                _QHsm_top
+000172e0                _QMPool_get
+00016d9d                _QMPool_init
+00017897                _QMPool_put
+            0000c75e    _QS_aoObj_
+            0000c766    _QS_apObj_
+0001014a                _QS_begin
+            0000c759    _QS_chksum_
+00010337                _QS_end
+            0000c754    _QS_end_
+            0000c762    _QS_eqObj_
+00011abd                _QS_f32
+00011f90                _QS_f64
+000100e4                _QS_filterOff
+0001007f                _QS_filterOn
+            0000c75a    _QS_full_
+000116e3                _QS_getByte
+00010000                _QS_getVersion
+            0000c732    _QS_glbFilter_
+            0000c755    _QS_head_
+00010008                _QS_initBuf
+0001175d                _QS_mem
+            0000c760    _QS_mpObj_
+00015cd7                _QS_onCleanup
+00015c9d                _QS_onFlush
+00015c86                _QS_onGetTime
+00015bad                _QS_onStartup
+            0000c752    _QS_ring_
+            0000c758    _QS_seq_
+            0000c75c    _QS_smObj_
+0001283c                _QS_str
+000114ef                _QS_str_
+000129a1                _QS_str_ROM
+000115eb                _QS_str_ROM_
+            0000c756    _QS_tail_
+            0000c764    _QS_teObj_
+            0000c768    _QS_tickCtr_
+00010696                _QS_u16
+00010f28                _QS_u16_
+00010966                _QS_u32
+0001110d                _QS_u32_
+000104b6                _QS_u8
+00010e33                _QS_u8_
+            0000c757    _QS_used_
+000174f1                _QTimeEvt_arm_
+00017cb4                _QTimeEvt_ctor
+00015ba9                _Q_onAssert
+000161d9                _RTC_isr
+00000100                _Reset
+000160c6                _TINT_isr
+00015b7c                _Table_ctor
+0001595c                _Table_initial
+0001570a                _Table_serving
+000130ea                _UART_config
+00013421                _UART_eventDisable
+00013389                _UART_eventEnable
+0001375b                _UART_fgetc
+0001387e                _UART_fgets
+000137f9                _UART_fputc
+000139ae                _UART_fputs
+00013ac2                _UART_getConfig
+00013a9b                _UART_getEventId
+00012b89                _UART_init
+000134b0                _UART_read
+000132f9                _UART_reset
+0001333e                _UART_resetOff
+00013b7f                _UART_setCallback
+00012c43                _UART_setup
+000131ef                _UART_setupBaudRate
+000135d9                _UART_write
+00000100                _VECSTART
+            0000c9b8    __STACK_END
+000003e8                __STACK_SIZE
+000003e8                __SYSSTACK_SIZE
+00000001                __TI_args_main
+ffffffff                ___binit__
+            0000c3a8    ___bss__
+ffffffff                ___c_args__
+            0000cbac    ___cinit__
+            00008000    ___data__
+            00008000    ___edata__
+            0000c7c4    ___end__
+00017e44                ___etext__
+ffffffff                ___pinit__
+00010000                ___text__
+00017d56                __args_main
+            0000c7be    __cleanup_ptr
+00017975                __divul
+            0000c7c0    __dtors_ptr
+            0000c7ba    __lock
+00017e23                __nop
+00017e1b                __register_lock
+00017e13                __register_unlock
+00017c42                __remul
+            0000c7c4    __stack
+            0000c9b8    __sysstack
+            0000c7bc    __unlock
+00017e3b                _abort
+00017d09                _auto_init
+00017bc1                _bzero
+00017ddf                _c_int00
+00017da1                _exit
+00015fc3                _illegal_isr
+            0000c0e5    _l_TINT_isr
+0001659f                _main
+ffffffff                binit
+            0000cbac    cinit
+            00008000    edata
+            0000c7c4    end
+00017e44                etext
+ffffffff                pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000001                $TI_capability_requires_rev3
+00000001                __TI_args_main
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000100                _Reset
+00000100                _VECSTART
+000003e8                __STACK_SIZE
+000003e8                __SYSSTACK_SIZE
+            00008000    .data
+00010000                .text
+00010000                _QS_getVersion
+            00008000    ___data__
+            00008000    ___edata__
+00010000                ___text__
+            00008000    edata
+00010008                _QS_initBuf
+0001007f                _QS_filterOn
+000100e4                _QS_filterOff
+0001014a                _QS_begin
+00010337                _QS_end
+000104b6                _QS_u8
+00010696                _QS_u16
+00010966                _QS_u32
+00010e33                _QS_u8_
+00010f28                _QS_u16_
+0001110d                _QS_u32_
+000114ef                _QS_str_
+000115eb                _QS_str_ROM_
+000116e3                _QS_getByte
+0001175d                _QS_mem
+00011abd                _QS_f32
+00011f90                _QS_f64
+0001283c                _QS_str
+000129a1                _QS_str_ROM
+00012b89                _UART_init
+00012c43                _UART_setup
+000130ea                _UART_config
+000131ef                _UART_setupBaudRate
+000132f9                _UART_reset
+0001333e                _UART_resetOff
+00013389                _UART_eventEnable
+00013421                _UART_eventDisable
+000134b0                _UART_read
+000135d9                _UART_write
+0001375b                _UART_fgetc
+000137f9                _UART_fputc
+0001387e                _UART_fgets
+000139ae                _UART_fputs
+00013a9b                _UART_getEventId
+00013ac2                _UART_getConfig
+00013b7f                _UART_setCallback
+00013be5                _QHsm_dispatch
+0001445a                _Philo_thinking
+0001450e                _Philo_initial
+00014924                _Philo_hungry
+000149e1                _Philo_eating
+00014adc                _Philo_ctor
+00014b29                _GPIO_open
+00014b6d                _GPIO_close
+00014b91                _GPIO_config
+00014c16                _GPIO_getConfig
+00014c9e                _GPIO_read
+00014d21                _GPIO_write
+00014dc4                _GPIO_configBit
+00014f0c                _GPIO_disableInt
+00014f8a                _GPIO_enableInt
+00015014                _GPIO_clearInt
+000150a0                _GPIO_statusBit
+00015127                _GPIO_reset
+000151b6                _IRQ_init
+00015250                _IRQ_clear
+000152ba                _IRQ_clearAll
+000152ca                _IRQ_config
+0001535d                _IRQ_getConfig
+000153f0                _IRQ_disable
+0001546e                _IRQ_disableAll
+0001547c                _IRQ_enable
+00015506                _IRQ_restore
+00015576                _IRQ_getArg
+000155bc                _IRQ_setArg
+000155ef                _IRQ_map
+00015621                _IRQ_setVecs
+00015652                _IRQ_test
+000156c4                _IRQ_globalDisable
+000156dd                _IRQ_globalEnable
+000156f6                _IRQ_globalRestore
+0001570a                _Table_serving
+0001595c                _Table_initial
+00015b7c                _Table_ctor
+00015ba9                _Q_onAssert
+00015bad                _QS_onStartup
+00015c86                _QS_onGetTime
+00015c9d                _QS_onFlush
+00015cd7                _QS_onCleanup
+00015cd9                _QF_onStartup
+00015d1d                _QF_onIdle
+00015d58                _QF_onCleanup
+00015e14                _BSP_init
+00015f12                _BSP_displyPhilStat
+00015fc1                _BSP_busyDelay
+00015fc3                _illegal_isr
+000160c6                _TINT_isr
+000161d9                _RTC_isr
+0001631c                _PLL_init
+00016354                _PLL_config
+0001647d                _PLL_enable
+000164e4                _PLL_bypass
+00016533                _PLL_reset
+0001659f                _main
+000167f2                _QHsm_init
+00016a18                _QActive_get_
+00016b94                _QF_getQueueMargin
+00016bfc                _QF_tick
+00016d9d                _QMPool_init
+00016f16                _QF_getVersion
+00016f1e                _QF_add_
+00016fd1                _QF_remove_
+0001708b                _QActive_postFIFO
+000171cb                _QF_publish
+000172e0                _QMPool_get
+00017394                _QF_getPoolMargin
+000173f4                _QActive_subscribe
+000174f1                _QTimeEvt_arm_
+000175df                _QF_new_
+000176cb                _QF_gc
+000177b5                _QF_init
+000177b7                _QF_stop
+000177c1                _QF_run
+00017823                _QActive_start
+0001788a                _QActive_stop
+00017897                _QMPool_put
+00017975                __divul
+00017a16                _QEQueue_init
+00017aad                _IRQ_plug
+00017b39                _QF_poolInit
+00017bc1                _bzero
+00017bf0                _QF_zero
+00017c22                _QF_psInit
+00017c42                __remul
+00017cb4                _QTimeEvt_ctor
+00017d09                _auto_init
+00017d56                __args_main
+00017da1                _exit
+00017ddf                _c_int00
+00017e13                __register_unlock
+00017e1b                __register_lock
+00017e23                __nop
+00017e25                _QHsm_top
+00017e33                _QEP_getVersion
+00017e3b                _abort
+00017e3c                C$$EXIT
+            0000bf22    _QF_log2Lkup
+00017e44                ___etext__
+00017e44                etext
+            0000c022    _QF_div8Lkup
+            0000c063    _QF_invPwr2Lkup
+            0000c0a4    _QF_pwr2Lkup
+            0000c0e5    _l_TINT_isr
+            0000c24a    _QEP_reservedEvt_
+            0000c2d6    _AO_Philo
+            0000c3a6    _AO_Table
+            0000c3a8    .bss
+            0000c3a8    ___bss__
+            0000c732    _QS_glbFilter_
+            0000c752    _QS_ring_
+            0000c754    _QS_end_
+            0000c755    _QS_head_
+            0000c756    _QS_tail_
+            0000c757    _QS_used_
+            0000c758    _QS_seq_
+            0000c759    _QS_chksum_
+            0000c75a    _QS_full_
+            0000c75c    _QS_smObj_
+            0000c75e    _QS_aoObj_
+            0000c760    _QS_mpObj_
+            0000c762    _QS_eqObj_
+            0000c764    _QS_teObj_
+            0000c766    _QS_apObj_
+            0000c768    _QS_tickCtr_
+            0000c76a    _QF_pool_
+            0000c788    _QF_maxPool_
+            0000c789    _QF_readySet_
+            0000c7a2    _QF_active_
+            0000c7b4    _QF_intLockNest_
+            0000c7b6    _QF_maxSignal_
+            0000c7b8    _QF_subscrList_
+            0000c7ba    __lock
+            0000c7bc    __unlock
+            0000c7be    __cleanup_ptr
+            0000c7c0    __dtors_ptr
+            0000c7c2    _QF_timeEvtListHead_
+            0000c7c4    ___end__
+            0000c7c4    __stack
+            0000c7c4    end
+            0000c9b8    __STACK_END
+            0000c9b8    __sysstack
+            0000cbac    ___cinit__
+            0000cbac    cinit
+ffffffff                ___binit__
+ffffffff                ___c_args__
+ffffffff                ___pinit__
+ffffffff                binit
+ffffffff                pinit
+
+[203 symbols]

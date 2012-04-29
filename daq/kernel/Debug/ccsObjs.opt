@@ -1,0 +1,1 @@
+"./zen.obj" "./util.obj" "./tmr.obj" "./time.obj" "./task.obj" "./sem.obj" "./queue.obj" "./mutex.obj" "./mem.obj" "./mbox.obj" "./flag.obj" "./demo.obj" "./dbg_r.obj" "./cpu_c.obj" "./cpu_a.obj" "./core.obj" "./boot.obj" "./autoinit.obj" "./TEST.obj" 

@@ -1,0 +1,155 @@
+;****************************************************************************
+; Interrupt Vector Table
+;
+; 32 interrupt vector addresses.  Each is 64 bits long.  The first 32 bits
+; contains the 24-bit program address of the Interrupt Service Routine (ISR).
+; The second 32 bits are executed before transferring control to the ISR.
+;****************************************************************************
+	.C54CM_off
+    .CPL_off
+    .ARMS_off
+    .sect   "vectors"
+    .align  256
+    .global _VECSTART
+
+;****************************************************************************
+;* Point Reset Vector to C Environment Entry Point
+;****************************************************************************
+   	.def RST
+    .ref    _c_int00
+	.ref	_illegal_isr
+_VECSTART:
+
+;****************************************************************************
+;* interrupt vector definitions
+;****************************************************************************
+RST:		.ivec    reset_isr, USE_RETA   ; Reset / Software Interrupt #0
+
+NMI:		.ivec    nmi_isr	       ; Nonmaskable Interrupt
+
+INT0:		.ivec    int0_isr          ; External User Interrupt #0
+
+INT1:		.ivec    int1_isr	       ; External User Interrupt #1
+
+TINT:		.ivec    TINT_isr	       ; Timer #0 / Software Interrupt #4
+
+PROG0:		.ivec    i2s0_mmc0_tx_isr  ; Programmable 0 Interrupt
+
+UART:		.ivec    uart_isr		   ; IIS #1 Receive Interrupt
+
+PROG1:		.ivec    i2s0_mmc0_rx_isr  ; Programmable 1 Interrupt
+
+DMA:		.ivec    dma_isr           ; DMA Interrupt
+
+PROG2:		.ivec    i2s1_mmc1_tx_isr  ; Programmable 2 Interrupt
+
+COPROCFFT:  .ivec    coprocfft_isr	   ; Coprocessor FFT Module Interrupt
+
+PROG3:		.ivec    i2s1_mmc1_rx_isr  ; Programmable 3 Interrupt
+
+LCD:		.ivec	 lcd_isr		   ; LCD Interrupt
+
+SARADC:		.ivec    saradc_isr		   ; SAR ADC Interrupt
+
+XMT2:		.ivec	 i2s2_tx_isr	   ; I2S2 Tx Interrupt
+
+RCV2:		.ivec	 i2s2_rx_isr	   ; I2S2 Rx Interrupt
+
+XMT3:		.ivec	 i2s3_tx_isr	   ; I2S3 Tx Interrupt
+
+RCV3:		.ivec	 i2s3_rx_isr	   ; I2S3 Rx Interrupt
+
+RTC:		.ivec    RTC_isr		   ; RTC interrupt
+
+SPI:    	.ivec    spi_isr		   ; SPI Receive Interrupt
+
+USB:		.ivec    usb_isr		   ; USB Transmit Interrupt
+
+GPIO:		.ivec    gpio_isr		   ; GPIO Interrupt
+
+EMIF:	    .ivec    emif_error_isr	   ; EMIF Error Interrupt
+
+I2C:		.ivec    i2c_isr		   ; IIC interrupt
+
+BERR:		.ivec    berr_isr		   ; Bus Error Interrupt
+
+DLOG:		.ivec    dlog_isr		   ; Emulation Interrupt - DLOG
+
+RTOS:		.ivec    rtos_isr		   ; Emulation Interrupt - RTOS
+
+RTDXRCV:	.ivec    rtdxrcv_isr	   ; Emulation Interrupt - RTDX receive
+
+RTDXXMT:	.ivec    rtdxxmt_isr	   ; Emulation Interrupt - RTDX transmit
+
+EMUINT:		.ivec    emuint_isr		   ; Emulation monitor mode interrupt
+
+SINT30:		.ivec    sint30_isr		   ; Software Interrupt #30
+
+SINT31:		.ivec    sint31_isr		   ; Software Interrupt #31
+
+
+nmi_isr:			goto	_illegal_isr
+
+int0_isr:			goto	_illegal_isr
+
+int1_isr:			goto	_illegal_isr
+
+TINT_isr:			goto	TINT_isr
+
+i2s0_mmc0_tx_isr:	goto	_illegal_isr
+
+uart_isr:			goto	_illegal_isr
+
+i2s0_mmc0_rx_isr:	goto	_illegal_isr
+
+dma_isr:			goto	_illegal_isr
+
+i2s1_mmc1_tx_isr:	goto	_illegal_isr
+
+coprocfft_isr:  	goto	_illegal_isr
+
+i2s1_mmc1_rx_isr:	goto	_illegal_isr
+
+lcd_isr:			goto	_illegal_isr
+
+saradc_isr:			goto	_illegal_isr
+
+i2s2_tx_isr:		goto	_illegal_isr
+
+i2s2_rx_isr:		goto	_illegal_isr
+
+i2s3_tx_isr:		goto	_illegal_isr
+
+i2s3_rx_isr:		goto	_illegal_isr
+
+RTC_isr:			goto	RTC_isr
+
+spi_isr:			goto	_illegal_isr
+
+usb_isr:			goto	_illegal_isr
+
+gpio_isr:			goto	_illegal_isr
+
+emif_error_isr:		goto	_illegal_isr
+
+i2c_isr:			goto	_illegal_isr
+
+berr_isr:
+					bit(ST3,#7) = #0   ; Clear bus error interrupts
+					goto	_illegal_isr
+
+dlog_isr:			goto	_illegal_isr
+
+rtos_isr:			goto	_illegal_isr
+
+rtdxrcv_isr:		goto	_illegal_isr
+
+rtdxxmt_isr:		goto	_illegal_isr
+
+emuint_isr:			goto	_illegal_isr
+
+sint30_isr:			goto	_illegal_isr
+
+sint31_isr:			goto	_illegal_isr
+
+    .end

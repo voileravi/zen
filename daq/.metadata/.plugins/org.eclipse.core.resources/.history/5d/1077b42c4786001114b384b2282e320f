@@ -1,0 +1,155 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnkx.cmd 
+
+TCF_SRCS += \
+C:/project/audioUsb_1_52_01_00/c55_caf/build/VC5505_CSL_BIOS_cfg.tcf 
+
+C_SRCS += \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/app_asrc.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/app_audio_alg.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usb.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usbac.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usbac_descs.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/codec_aic3254.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/codec_config.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/csl_i2c_power_monitor.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/csl_usb_iso_fullspeed_example.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/dbg_sdram.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/gpio_control.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/i2s_sample.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/lcd_osd.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/pll_control.c \
+C:/project/audioUsb_1_52_01_00/c55_caf/src/user_interface.c 
+
+OBJS += \
+./VC5505_CSL_BIOS_cfg.obj \
+./VC5505_CSL_BIOS_cfg_c.obj \
+./app_asrc.obj \
+./app_audio_alg.obj \
+./app_usb.obj \
+./app_usbac.obj \
+./app_usbac_descs.obj \
+./codec_aic3254.obj \
+./codec_config.obj \
+./csl_i2c_power_monitor.obj \
+./csl_usb_iso_fullspeed_example.obj \
+./dbg_sdram.obj \
+./gpio_control.obj \
+./i2s_sample.obj \
+./lcd_osd.obj \
+./pll_control.obj \
+./user_interface.obj 
+
+GEN_SRCS += \
+./VC5505_CSL_BIOS_cfg.cmd \
+./VC5505_CSL_BIOS_cfg.s?? \
+./VC5505_CSL_BIOS_cfg_c.c 
+
+GEN_MISC_FILES += \
+./VC5505_CSL_BIOS_cfg.h \
+./VC5505_CSL_BIOS_cfg.h?? \
+./VC5505_CSL_BIOS_.cdb 
+
+S??_DEPS += \
+./VC5505_CSL_BIOS_cfg.pp 
+
+C_DEPS += \
+./VC5505_CSL_BIOS_cfg_c.pp \
+./app_asrc.pp \
+./app_audio_alg.pp \
+./app_usb.pp \
+./app_usbac.pp \
+./app_usbac_descs.pp \
+./codec_aic3254.pp \
+./codec_config.pp \
+./csl_i2c_power_monitor.pp \
+./csl_usb_iso_fullspeed_example.pp \
+./dbg_sdram.pp \
+./gpio_control.pp \
+./i2s_sample.pp \
+./lcd_osd.pp \
+./pll_control.pp \
+./user_interface.pp 
+
+GEN_CMDS += \
+./VC5505_CSL_BIOS_cfg.cmd 
+
+GEN_SRCS__QUOTED += \
+"VC5505_CSL_BIOS_cfg.cmd" \
+"VC5505_CSL_BIOS_cfg.s??" \
+"VC5505_CSL_BIOS_cfg_c.c" 
+
+GEN_MISC_FILES__QUOTED += \
+"VC5505_CSL_BIOS_cfg.h" \
+"VC5505_CSL_BIOS_cfg.h??" \
+"VC5505_CSL_BIOS_.cdb" 
+
+C_DEPS__QUOTED += \
+"VC5505_CSL_BIOS_cfg_c.pp" \
+"app_asrc.pp" \
+"app_audio_alg.pp" \
+"app_usb.pp" \
+"app_usbac.pp" \
+"app_usbac_descs.pp" \
+"codec_aic3254.pp" \
+"codec_config.pp" \
+"csl_i2c_power_monitor.pp" \
+"csl_usb_iso_fullspeed_example.pp" \
+"dbg_sdram.pp" \
+"gpio_control.pp" \
+"i2s_sample.pp" \
+"lcd_osd.pp" \
+"pll_control.pp" \
+"user_interface.pp" 
+
+S??_DEPS__QUOTED += \
+"VC5505_CSL_BIOS_cfg.pp" 
+
+OBJS__QUOTED += \
+"VC5505_CSL_BIOS_cfg.obj" \
+"VC5505_CSL_BIOS_cfg_c.obj" \
+"app_asrc.obj" \
+"app_audio_alg.obj" \
+"app_usb.obj" \
+"app_usbac.obj" \
+"app_usbac_descs.obj" \
+"codec_aic3254.obj" \
+"codec_config.obj" \
+"csl_i2c_power_monitor.obj" \
+"csl_usb_iso_fullspeed_example.obj" \
+"dbg_sdram.obj" \
+"gpio_control.obj" \
+"i2s_sample.obj" \
+"lcd_osd.obj" \
+"pll_control.obj" \
+"user_interface.obj" 
+
+TCF_SRCS__QUOTED += \
+"C:/project/audioUsb_1_52_01_00/c55_caf/build/VC5505_CSL_BIOS_cfg.tcf" 
+
+GEN_CMDS__FLAG += \
+-l"./VC5505_CSL_BIOS_cfg.cmd" 
+
+C_SRCS__QUOTED += \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/app_asrc.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/app_audio_alg.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usb.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usbac.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/app_usbac_descs.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/codec_aic3254.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/codec_config.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/csl_i2c_power_monitor.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/csl_usb_iso_fullspeed_example.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/dbg_sdram.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/gpio_control.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/i2s_sample.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/lcd_osd.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/pll_control.c" \
+"C:/project/audioUsb_1_52_01_00/c55_caf/src/user_interface.c" 
+
+

@@ -1,0 +1,38 @@
+
+**** Build of configuration Debug for project dpp-qk ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: ../bsp.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="bsp.pp"  "../bsp.c"
+'Finished building: ../bsp.c'
+' '
+'Building file: ../i2s.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="i2s.pp"  "../i2s.c"
+'Finished building: ../i2s.c'
+' '
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 32: warning: function declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../usb.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="usb.pp"  "../usb.c"
+'Finished building: ../usb.c'
+' '
+'Building file: C:/project/daq/examples/tms320c55x/zen/c5500/dpp-qk_usbstk5515/vectors.asm'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="c:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="c:/project/daq/ports/tms320c55x/qk/c5500" --include_path="c:/project/daq/include" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="vectors.pp"  "C:/project/daq/examples/tms320c55x/zen/c5500/dpp-qk_usbstk5515/vectors.asm"
+'Finished building: C:/project/daq/examples/tms320c55x/zen/c5500/dpp-qk_usbstk5515/vectors.asm'
+' '
+'Building target: dpp-qk.out'
+'Invoking: C5500 Linker'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large -z -m"dpp-qk.map" --warn_sections -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/lib" -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --reread_libs --rom_model -o "dpp-qk.out"  "./vectors.obj" "./usb.obj" "./main.obj" "./i2s.obj" "./bsp.obj" -l"C:\project\daq\ports\tms320c55x\qk\c5500\dbg\qp5515_large.lib" -l"C:\project\daq\examples\tms320c55x\c55xx_csl\build\Debug\cslVC5505_Lib.lib" "../C5515.cmd" 
+<Linking>
+'Finished building target: dpp-qk.out'
+' '
+
+**** Build Finished ****

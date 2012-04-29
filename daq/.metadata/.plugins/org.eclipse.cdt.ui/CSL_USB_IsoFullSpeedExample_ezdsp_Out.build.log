@@ -1,0 +1,3 @@
+Buildfile generation error occurred..
+Build-configuration 'com.ti.ccstudio.buildDefinitions.C5500.Debug.1372872082' does not exist in the referenced project 'cslVC5505'. Use the 'Properties > CCS Build > Dependencies' page to select an existing build-configuration.
+Build stopped..

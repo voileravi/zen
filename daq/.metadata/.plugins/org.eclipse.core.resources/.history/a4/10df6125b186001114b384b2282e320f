@@ -1,0 +1,172 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+CG_TOOL_ROOT := C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500
+
+ORDERED_OBJS += \
+$(GEN_CMDS__FLAG) \
+"./user_interface.obj" \
+"./pll_control.obj" \
+"./lcd_osd.obj" \
+"./i2s_sample.obj" \
+"./gpio_control.obj" \
+"./dbg_sdram.obj" \
+"./csl_usb_iso_fullspeed_example.obj" \
+"./csl_i2c_power_monitor.obj" \
+"./codec_config.obj" \
+"./codec_aic3254.obj" \
+"./app_usbac_descs.obj" \
+"./app_usbac.obj" \
+"./app_usb.obj" \
+"./app_audio_alg.obj" \
+"./app_asrc.obj" \
+"./VC5505_CSL_BIOS_cfg_c.obj" \
+"./VC5505_CSL_BIOS_cfg.obj" \
+-l"dma_bios_drv_lib.lib" \
+-l"i2c_bios_drv_lib.lib" \
+-l"i2s_bios_drv_lib.lib" \
+-l"palos_bios_lib.lib" \
+-l"pal_sys_bios_lib.lib" \
+-l"cslVC5505_Lib.lib" \
+-l"asrc_dly_fix_lib.lib" \
+-l"55xdspx.lib" \
+-l"libc.a" \
+"../lnkx.cmd" \
+
+-include ../makefile.init
+
+RM := DEL /F
+RMDIR := RMDIR /S/Q
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir_vars.mk
+-include subdir_rules.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(S_DEPS)),)
+-include $(S_DEPS)
+endif
+ifneq ($(strip $(S_UPPER_DEPS)),)
+-include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(S62_DEPS)),)
+-include $(S62_DEPS)
+endif
+ifneq ($(strip $(C64_DEPS)),)
+-include $(C64_DEPS)
+endif
+ifneq ($(strip $(ASM_DEPS)),)
+-include $(ASM_DEPS)
+endif
+ifneq ($(strip $(CC_DEPS)),)
+-include $(CC_DEPS)
+endif
+ifneq ($(strip $(S55_DEPS)),)
+-include $(S55_DEPS)
+endif
+ifneq ($(strip $(C67_DEPS)),)
+-include $(C67_DEPS)
+endif
+ifneq ($(strip $(C??_DEPS)),)
+-include $(C??_DEPS)
+endif
+ifneq ($(strip $(CLA_DEPS)),)
+-include $(CLA_DEPS)
+endif
+ifneq ($(strip $(CPP_DEPS)),)
+-include $(CPP_DEPS)
+endif
+ifneq ($(strip $(S??_DEPS)),)
+-include $(S??_DEPS)
+endif
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+ifneq ($(strip $(C62_DEPS)),)
+-include $(C62_DEPS)
+endif
+ifneq ($(strip $(CXX_DEPS)),)
+-include $(CXX_DEPS)
+endif
+ifneq ($(strip $(C++_DEPS)),)
+-include $(C++_DEPS)
+endif
+ifneq ($(strip $(ASM_UPPER_DEPS)),)
+-include $(ASM_UPPER_DEPS)
+endif
+ifneq ($(strip $(K_DEPS)),)
+-include $(K_DEPS)
+endif
+ifneq ($(strip $(C43_DEPS)),)
+-include $(C43_DEPS)
+endif
+ifneq ($(strip $(S67_DEPS)),)
+-include $(S67_DEPS)
+endif
+ifneq ($(strip $(SA_DEPS)),)
+-include $(SA_DEPS)
+endif
+ifneq ($(strip $(S43_DEPS)),)
+-include $(S43_DEPS)
+endif
+ifneq ($(strip $(OPT_DEPS)),)
+-include $(OPT_DEPS)
+endif
+ifneq ($(strip $(S64_DEPS)),)
+-include $(S64_DEPS)
+endif
+ifneq ($(strip $(C_UPPER_DEPS)),)
+-include $(C_UPPER_DEPS)
+endif
+ifneq ($(strip $(C55_DEPS)),)
+-include $(C55_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug/CSL_USB_IsoFullSpeedExample_ezdsp_Out.out
+
+dependents:
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/dma/build/dma_bios_drv_lib/Debug && $(MAKE) all
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/i2c/build/i2c_bios_drv_lib/Debug && $(MAKE) all
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/i2s/build/i2s_bios_drv_lib/Debug && $(MAKE) all
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_os/build/palos_bios_lib/Debug && $(MAKE) all
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_sys/build/pal_sys_bios_lib/Debug && $(MAKE) all
+	-cd C:/project/audioUsb_1_52_01_00/c55_caf/c55xx_csl/build/cslVC5505/Debug && $(MAKE) all
+
+# Tool invocations
+C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug/CSL_USB_IsoFullSpeedExample_ezdsp_Out.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS) C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/dma_bios_drv_lib.lib C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/i2c_bios_drv_lib.lib C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/i2s_bios_drv_lib.lib C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_os/lib/debug/palos_bios_lib.lib C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_sys/lib/debug/pal_sys_bios_lib.lib C:/project/audioUsb_1_52_01_00/c55_caf/c55xx_csl/build/Debug/cslVC5505_Lib.lib
+	@echo 'Building target: $@'
+	@echo 'Invoking: C5500 Linker'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --define="_DEBUG" --define="BIOS_BUILD" --define="CSL_AC_TEST" --define="C5535_EZDSP" --define="C5535_EZDSP_DEMO" --diag_warning=225 --large_memory_model --ptrdiff_size=16 --algebraic --memory_model=large --obj_directory="C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug" -z -m"C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug/CSL_USB_IsoFullSpeedExample_ezdsp_Out.map" --warn_sections -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/lib" -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" -i"C:/Program Files/Texas Instruments/bios_5_41_10_36/packages/ti/rtdx/lib/c5500" -i"C:/Program Files/Texas Instruments/bios_5_41_10_36/packages/ti/bios/lib" -i"C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out" -i"C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug" -i"C:/project/audioUsb_1_52_01_00/c55_caf/build" -i"/packages/ti/rtdx/lib/c5000" -i"C:/project/audioUsb_1_52_01_00/c55_caf/asrc/lib" -i"C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug" -i"C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_os/lib/debug" -i"C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_sys/lib/debug" -i"C:/project/audioUsb_1_52_01_00/c55_caf/c55xx_csl/build/Debug" -i"C:/project/audioUsb_1_52_01_00/c55_caf/dsplib/lib" --reread_libs --rom_model -o "C:/project/audioUsb_1_52_01_00/c55_caf/build/CSL_USB_IsoFullSpeedExample_ezdsp_Out/Debug/CSL_USB_IsoFullSpeedExample_ezdsp_Out.out" $(ORDERED_OBJS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(C5500_EXECUTABLE_OUTPUTS__QUOTED)$(GEN_SRCS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(GEN_CMDS__QUOTED) "C:\project\audioUsb_1_52_01_00\c55_caf\build\CSL_USB_IsoFullSpeedExample_ezdsp_Out\Debug\CSL_USB_IsoFullSpeedExample_ezdsp_Out.out"
+	-$(RM) "VC5505_CSL_BIOS_cfg_c.pp" "app_asrc.pp" "app_audio_alg.pp" "app_usb.pp" "app_usbac.pp" "app_usbac_descs.pp" "codec_aic3254.pp" "codec_config.pp" "csl_i2c_power_monitor.pp" "csl_usb_iso_fullspeed_example.pp" "dbg_sdram.pp" "gpio_control.pp" "i2s_sample.pp" "lcd_osd.pp" "pll_control.pp" "user_interface.pp" 
+	-$(RM) "VC5505_CSL_BIOS_cfg.pp" 
+	-$(RM) "VC5505_CSL_BIOS_cfg.obj" "VC5505_CSL_BIOS_cfg_c.obj" "app_asrc.obj" "app_audio_alg.obj" "app_usb.obj" "app_usbac.obj" "app_usbac_descs.obj" "codec_aic3254.obj" "codec_config.obj" "csl_i2c_power_monitor.obj" "csl_usb_iso_fullspeed_example.obj" "dbg_sdram.obj" "gpio_control.obj" "i2s_sample.obj" "lcd_osd.obj" "pll_control.obj" "user_interface.obj" 
+	-@echo 'Finished clean'
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/dma_bios_drv_lib.lib:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/i2c_bios_drv_lib.lib:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/lib/Debug/i2s_bios_drv_lib.lib:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_os/lib/debug/palos_bios_lib.lib:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55x5_drivers/pal_sys/lib/debug/pal_sys_bios_lib.lib:
+C:/project/audioUsb_1_52_01_00/c55_caf/c55xx_csl/build/Debug/cslVC5505_Lib.lib:
+
+-include ../makefile.targets

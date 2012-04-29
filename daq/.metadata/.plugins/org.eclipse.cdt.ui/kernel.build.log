@@ -1,0 +1,158 @@
+
+**** Build of configuration Debug for project kernel ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: C:/project/daq/kernel/TEST.C'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="TEST.pp"  "C:/project/daq/kernel/TEST.C"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+"C:/project/daq/kernel/TEST.C", line 95: warning: argument of type "char *" is incompatible with parameter of type "INT8U *"
+"C:/project/daq/kernel/TEST.C", line 107: warning: argument of type "char *" is incompatible with parameter of type "INT8U *"
+"C:/project/daq/kernel/TEST.C", line 119: warning: argument of type "char *" is incompatible with parameter of type "INT8U *"
+'Finished building: C:/project/daq/kernel/TEST.C'
+' '
+'Building file: C:/project/daq/kernel/autoinit.asm'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="autoinit.pp"  "C:/project/daq/kernel/autoinit.asm"
+'Finished building: C:/project/daq/kernel/autoinit.asm'
+' '
+'Building file: C:/project/daq/kernel/boot.asm'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="boot.pp"  "C:/project/daq/kernel/boot.asm"
+"C:/project/daq/kernel/boot.asm", REMARK   at line 141: [R5538] This instruction
+                                                                may corrupt the
+                                                                TCx status
+                                                                bits; be sure
+                                                                to see Advisory
+                                                                CPU_24 in the
+                                                                rev 1.0 silicon
+                                                                errata
+	    TC1 = T0 == T1
+
+"C:/project/daq/kernel/boot.asm", REMARK   at line 151: [R5670] This software
+                                                                reset
+                                                                instruction
+                                                                will not reset
+                                                                the C16, XF,
+                                                                and HM bits in
+                                                                the ST1
+                                                                register (see
+                                                                the C55x
+                                                                silicon
+                                                                exceptions
+                                                                errata;
+                                                                Advisory
+                                                                CPU_91)
+	    RESET
+
+'Finished building: C:/project/daq/kernel/boot.asm'
+' '
+'Building file: C:/project/daq/kernel/core.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="core.pp"  "C:/project/daq/kernel/core.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+"C:/project/daq/kernel/core.c", line 669: warning: function declared implicitly
+"C:/project/daq/kernel/core.c", line 788: warning: function declared implicitly
+'Finished building: C:/project/daq/kernel/core.c'
+' '
+'Building file: C:/project/daq/kernel/cpu_a.asm'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="cpu_a.pp"  "C:/project/daq/kernel/cpu_a.asm"
+'Finished building: C:/project/daq/kernel/cpu_a.asm'
+' '
+'Building file: C:/project/daq/kernel/cpu_c.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="cpu_c.pp"  "C:/project/daq/kernel/cpu_c.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/cpu_c.c'
+' '
+'Building file: C:/project/daq/kernel/dbg_r.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="dbg_r.pp"  "C:/project/daq/kernel/dbg_r.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/dbg_r.c'
+' '
+'Building file: C:/project/daq/kernel/demo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="demo.pp"  "C:/project/daq/kernel/demo.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+"C:/project/daq/kernel/demo.c", line 111: warning: function declared implicitly
+"C:/project/daq/kernel/demo.c", line 237: warning: function declared implicitly
+'Finished building: C:/project/daq/kernel/demo.c'
+' '
+'Building file: C:/project/daq/kernel/flag.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="flag.pp"  "C:/project/daq/kernel/flag.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/flag.c'
+' '
+'Building file: C:/project/daq/kernel/mbox.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="mbox.pp"  "C:/project/daq/kernel/mbox.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/mbox.c'
+' '
+'Building file: C:/project/daq/kernel/mem.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="mem.pp"  "C:/project/daq/kernel/mem.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/mem.c'
+' '
+'Building file: C:/project/daq/kernel/mutex.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="mutex.pp"  "C:/project/daq/kernel/mutex.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/mutex.c'
+' '
+'Building file: C:/project/daq/kernel/queue.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="queue.pp"  "C:/project/daq/kernel/queue.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/queue.c'
+' '
+'Building file: C:/project/daq/kernel/sem.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="sem.pp"  "C:/project/daq/kernel/sem.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/sem.c'
+' '
+'Building file: C:/project/daq/kernel/task.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="task.pp"  "C:/project/daq/kernel/task.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/task.c'
+' '
+'Building file: C:/project/daq/kernel/time.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="time.pp"  "C:/project/daq/kernel/time.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/time.c'
+' '
+'Building file: C:/project/daq/kernel/tmr.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="tmr.pp"  "C:/project/daq/kernel/tmr.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+'Finished building: C:/project/daq/kernel/tmr.c'
+' '
+'Building file: C:/project/daq/kernel/util.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="util.pp"  "C:/project/daq/kernel/util.c"
+'Finished building: C:/project/daq/kernel/util.c'
+' '
+'Building file: C:/project/daq/kernel/zen.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/kernel/inc" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="zen.pp"  "C:/project/daq/kernel/zen.c"
+"C:/project/daq/kernel/inc/zen_cpu.h", line 39: warning: typedef name has already been declared (with same type)
+"C:\project\daq\kernel\core.c", line 669: warning: function declared implicitly
+"C:\project\daq\kernel\core.c", line 788: warning: function declared implicitly
+'Finished building: C:/project/daq/kernel/zen.c'
+' '
+'Building target: kernel.lib'
+'Invoking: C5500 Archiver'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/ar55" r "kernel.lib" "./zen.obj" "./util.obj" "./tmr.obj" "./time.obj" "./task.obj" "./sem.obj" "./queue.obj" "./mutex.obj" "./mem.obj" "./mbox.obj" "./flag.obj" "./demo.obj" "./dbg_r.obj" "./cpu_c.obj" "./cpu_a.obj" "./core.obj" "./boot.obj" "./autoinit.obj" "./TEST.obj" 
+  ==>  new archive 'kernel.lib'
+  ==>  building archive 'kernel.lib'
+'Finished building target: kernel.lib'
+' '
+
+**** Build Finished ****

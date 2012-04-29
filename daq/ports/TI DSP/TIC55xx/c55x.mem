@@ -1,0 +1,15 @@
+MEMORY c55x
+   (FAMILY = c55x) {
+
+
+   SPACE memory_space PAGE 0 :
+      ROM    (RWXI): o= 0x000100 e= 0x007FFF
+      RAM    (RWXI): o= 0x020000 e= 0x025FFF
+      VECTORS(RWXI): o= 0xFFFF00 e= 0xFFFFFF
+
+   SPACE IO_space PAGE 2 :
+}
+
+SHARED_ADDRESSES c55x {
+   /* none */
+}

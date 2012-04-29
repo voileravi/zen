@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;dpp-qk/philo.c&apos; to &apos;i2s.c&apos;" description="Rename resource &apos;philo.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="philo.c" name="i2s.c" stamp="1335631571550" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;dpp-qk/table.c&apos; to &apos;usb.c&apos;" description="Rename resource &apos;table.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="table.c" name="usb.c" stamp="1335631588741" updateReferences="true"/>
+</session>

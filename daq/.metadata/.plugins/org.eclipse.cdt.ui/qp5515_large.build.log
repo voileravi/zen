@@ -1,0 +1,318 @@
+
+**** Build of configuration Debug for project qp5515_large ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: C:/project/daq/qf/source/qa_defer.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_defer.pp"  "C:/project/daq/qf/source/qa_defer.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_defer.c".
+
+Compilation terminated.
+>> Compilation failure
+gmake: *** [qa_defer.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_fifo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_fifo.pp"  "C:/project/daq/qf/source/qa_fifo.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_fifo.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_fifo.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_get_.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_get_.pp"  "C:/project/daq/qf/source/qa_get_.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_get_.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_get_.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_lifo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_lifo.pp"  "C:/project/daq/qf/source/qa_lifo.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_lifo.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_lifo.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_sub.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_sub.pp"  "C:/project/daq/qf/source/qa_sub.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_sub.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_sub.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_usub.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_usub.pp"  "C:/project/daq/qf/source/qa_usub.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_usub.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_usub.obj] Error 1
+'Building file: C:/project/daq/qf/source/qa_usuba.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_usuba.pp"  "C:/project/daq/qf/source/qa_usuba.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qa_usuba.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qa_usuba.obj] Error 1
+'Building file: C:/project/daq/qep/source/qep.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qep.pp"  "C:/project/daq/qep/source/qep.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qep.c".
+
+Compilation terminated.
+>> Compilation failure
+gmake: *** [qep.obj] Error 1
+'Building file: C:/project/daq/qf/source/qeq_fifo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_fifo.pp"  "C:/project/daq/qf/source/qeq_fifo.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qeq_fifo.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qeq_fifo.obj] Error 1
+'Building file: C:/project/daq/qf/source/qeq_get.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_get.pp"  "C:/project/daq/qf/source/qeq_get.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qeq_get.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qeq_get.obj] Error 1
+'Building file: C:/project/daq/qf/source/qeq_init.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_init.pp"  "C:/project/daq/qf/source/qeq_init.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qeq_init.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qeq_init.obj] Error 1
+'Building file: C:/project/daq/qf/source/qeq_lifo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_lifo.pp"  "C:/project/daq/qf/source/qeq_lifo.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qeq_lifo.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qeq_lifo.obj] Error 1
+'Building file: C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_port.pp"  "C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c"
+"C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c", line 28: fatal error: could not open source file "qf_pkg.h"
+1 fatal error detected in the compilation of "C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qf_port.obj] Error 1
+'Building file: C:/project/daq/qf/source/qf_pspub.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_pspub.pp"  "C:/project/daq/qf/source/qf_pspub.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qf_pspub.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qf_pspub.obj] Error 1
+'Building file: C:/project/daq/qf/source/qf_pwr2.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_pwr2.pp"  "C:/project/daq/qf/source/qf_pwr2.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qf_pwr2.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qf_pwr2.obj] Error 1
+'Building file: C:/project/daq/qf/source/qf_tick.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_tick.pp"  "C:/project/daq/qf/source/qf_tick.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qf_tick.c".
+Compilation terminated.
+gmake: *** [qf_tick.obj] Error 1
+
+>> Compilation failure
+'Building file: C:/project/daq/qep/source/qfsm_dis.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qfsm_dis.pp"  "C:/project/daq/qep/source/qfsm_dis.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qfsm_dis.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qfsm_dis.obj] Error 1
+'Building file: C:/project/daq/qep/source/qfsm_ini.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qfsm_ini.pp"  "C:/project/daq/qep/source/qfsm_ini.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qfsm_ini.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qfsm_ini.obj] Error 1
+'Building file: C:/project/daq/qep/source/qhsm_dis.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_dis.pp"  "C:/project/daq/qep/source/qhsm_dis.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qhsm_dis.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qhsm_dis.obj] Error 1
+'Building file: C:/project/daq/qep/source/qhsm_in.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_in.pp"  "C:/project/daq/qep/source/qhsm_in.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qhsm_in.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qhsm_in.obj] Error 1
+'Building file: C:/project/daq/qep/source/qhsm_ini.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_ini.pp"  "C:/project/daq/qep/source/qhsm_ini.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qhsm_ini.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qhsm_ini.obj] Error 1
+'Building file: C:/project/daq/qep/source/qhsm_top.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_top.pp"  "C:/project/daq/qep/source/qhsm_top.c"
+"C:\project\daq\qep\source\qep_pkg.h", line 37: fatal error: could not open source file "qep_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qep/source/qhsm_top.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qhsm_top.obj] Error 1
+'Building file: C:/project/daq/qk/source/qk.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk.pp"  "C:/project/daq/qk/source/qk.c"
+"C:\project\daq\qk\source\qk_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qk/source/qk.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qk.obj] Error 1
+'Building file: C:/project/daq/qk/source/qk_mutex.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_mutex.pp"  "C:/project/daq/qk/source/qk_mutex.c"
+"C:\project\daq\qk\source\qk_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qk/source/qk_mutex.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qk_mutex.obj] Error 1
+'Building file: C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_port.pp"  "C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c"
+"C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c", line 30: fatal error: could not open source file "qk_pkg.h"
+1 fatal error detected in the compilation of "C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qk_port.obj] Error 1
+'Building file: C:/project/daq/qk/source/qk_sched.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_sched.pp"  "C:/project/daq/qk/source/qk_sched.c"
+"C:\project\daq\qk\source\qk_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qk/source/qk_sched.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qk_sched.obj] Error 1
+'Building file: C:/project/daq/qf/source/qmp_get.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_get.pp"  "C:/project/daq/qf/source/qmp_get.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qmp_get.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qmp_get.obj] Error 1
+'Building file: C:/project/daq/qf/source/qmp_init.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_init.pp"  "C:/project/daq/qf/source/qmp_init.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qmp_init.c".
+Compilation terminated.
+
+gmake: *** [qmp_init.obj] Error 1
+>> Compilation failure
+'Building file: C:/project/daq/qf/source/qmp_put.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_put.pp"  "C:/project/daq/qf/source/qmp_put.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qmp_put.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qmp_put.obj] Error 1
+'Building file: C:/project/daq/qf/source/qte_arm.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_arm.pp"  "C:/project/daq/qf/source/qte_arm.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qte_arm.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qte_arm.obj] Error 1
+'Building file: C:/project/daq/qf/source/qte_ctor.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_ctor.pp"  "C:/project/daq/qf/source/qte_ctor.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qte_ctor.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qte_ctor.obj] Error 1
+'Building file: C:/project/daq/qf/source/qte_ctr.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_ctr.pp"  "C:/project/daq/qf/source/qte_ctr.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qte_ctr.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qte_ctr.obj] Error 1
+'Building file: C:/project/daq/qf/source/qte_darm.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_darm.pp"  "C:/project/daq/qf/source/qte_darm.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qte_darm.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qte_darm.obj] Error 1
+'Building file: C:/project/daq/qf/source/qte_rarm.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_rarm.pp"  "C:/project/daq/qf/source/qte_rarm.c"
+"C:\project\daq\qf\source\qf_pkg.h", line 37: fatal error: could not open source file "qf_port.h"
+1 fatal error detected in the compilation of "C:/project/daq/qf/source/qte_rarm.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [qte_rarm.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

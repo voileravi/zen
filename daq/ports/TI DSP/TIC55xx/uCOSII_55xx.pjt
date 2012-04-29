@@ -1,0 +1,61 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\MICRIUM\Software\uCOS-II\Ports\TI DSP\TIC55xx\"
+ProjectType=Executable
+CPUFamily=TMS320C55XX
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\..\..\..\..\ti\c5500\cgtools\lib\rts55x.lib"
+Source="..\..\..\Source\os_core.c"
+Source="..\..\..\Source\os_dbg_r.c"
+Source="..\..\..\Source\os_flag.c"
+Source="..\..\..\Source\os_mbox.c"
+Source="..\..\..\Source\os_mem.c"
+Source="..\..\..\Source\os_mutex.c"
+Source="..\..\..\Source\os_q.c"
+Source="..\..\..\Source\os_sem.c"
+Source="..\..\..\Source\os_task.c"
+Source="..\..\..\Source\os_time.c"
+Source="..\..\..\Source\os_tmr.c"
+Source="src\autoinit.asm"
+Source="src\boot.asm"
+Source="src\demo.c"
+Source="src\OS_CPU_A.ASM"
+Source="src\Os_cpu_c.c"
+Source="src\util.c"
+Source="src\vectors.asm"
+Source="Link55xx.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"C:\MICRIUM\Software\uCOS-II\Ports\TI DSP\TIC55xx\Debug" -i"C:\MICRIUM\Software\uCOS-II\Ports\TI DSP\TIC55xx\inc" -i"C:\Micrium\Software\uCOS-II\Source" -d"_DEBUG" -mb -ml -ata -atc
+
+["Compiler" Settings: "Release"]
+Options=-q -o2 -fr"C:\MICRIUM\Software\uCOS-II\Ports\TI DSP\TIC55xx\Release"
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v55
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v55
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m"55xx.map" -o".\Debug\uCOSII_55xx.out" -x
+
+["Linker" Settings: "Release"]
+Options=-q -o".\Release\uCOSII_5509.out" -x
+
+["src\autoinit.asm" Settings: "Debug"]
+Options="Compiler" +{-mg}
+
+["src\boot.asm" Settings: "Debug"]
+Options="Compiler" +{-mg -ad.PHASE3} -{-ata -atc}
+
+["src\vectors.asm" Settings: "Debug"]
+Options="Compiler" +{-mg}
+

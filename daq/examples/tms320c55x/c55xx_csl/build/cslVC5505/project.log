@@ -1,0 +1,14 @@
+
+!CONFIGURATION: {0} [Thu Feb 09 17:53:07 EST 2012]
+
+	!TOOL: {0}
+
+		!WARNING: Unresolved option: com.ti.ccstudio.buildDefinitions.C5500_4.4.library.compilerDebug.2008946957::-ml
+
+
+!CONFIGURATION: {0} [Thu Feb 09 17:53:08 EST 2012]
+
+	!TOOL: {0}
+
+		!WARNING: Unresolved option: com.ti.ccstudio.buildDefinitions.C5500_4.4.library.compilerRelease.301989570::-ml
+

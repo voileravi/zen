@@ -1,0 +1,1 @@
+"./norflash_writer.obj" "./norflash.obj" "./main.obj" -l"rts55x.lib" "../lnkx.cmd" "../usbstk5515bsl.lib" 

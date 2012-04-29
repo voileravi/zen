@@ -1,0 +1,251 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+main.obj: ../main.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="main.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_defer.obj: C:/project/daq/qf/source/qa_defer.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_defer.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_fifo.obj: C:/project/daq/qf/source/qa_fifo.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_fifo.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_get_.obj: C:/project/daq/qf/source/qa_get_.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_get_.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_lifo.obj: C:/project/daq/qf/source/qa_lifo.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_lifo.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_sub.obj: C:/project/daq/qf/source/qa_sub.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_sub.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_usub.obj: C:/project/daq/qf/source/qa_usub.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_usub.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qa_usuba.obj: C:/project/daq/qf/source/qa_usuba.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qa_usuba.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qep.obj: C:/project/daq/qep/source/qep.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qep.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qeq_fifo.obj: C:/project/daq/qf/source/qeq_fifo.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_fifo.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qeq_get.obj: C:/project/daq/qf/source/qeq_get.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_get.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qeq_init.obj: C:/project/daq/qf/source/qeq_init.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_init.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qeq_lifo.obj: C:/project/daq/qf/source/qeq_lifo.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qeq_lifo.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qf_port.obj: C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_port.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qf_pspub.obj: C:/project/daq/qf/source/qf_pspub.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_pspub.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qf_pwr2.obj: C:/project/daq/qf/source/qf_pwr2.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_pwr2.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qf_tick.obj: C:/project/daq/qf/source/qf_tick.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qf_tick.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qfsm_dis.obj: C:/project/daq/qep/source/qfsm_dis.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qfsm_dis.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qfsm_ini.obj: C:/project/daq/qep/source/qfsm_ini.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qfsm_ini.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qhsm_dis.obj: C:/project/daq/qep/source/qhsm_dis.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_dis.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qhsm_in.obj: C:/project/daq/qep/source/qhsm_in.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_in.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qhsm_ini.obj: C:/project/daq/qep/source/qhsm_ini.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_ini.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qhsm_top.obj: C:/project/daq/qep/source/qhsm_top.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qhsm_top.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qk.obj: C:/project/daq/qk/source/qk.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qk_mutex.obj: C:/project/daq/qk/source/qk_mutex.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_mutex.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qk_port.obj: C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_port.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qk_sched.obj: C:/project/daq/qk/source/qk_sched.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qk_sched.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qmp_get.obj: C:/project/daq/qf/source/qmp_get.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_get.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qmp_init.obj: C:/project/daq/qf/source/qmp_init.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_init.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qmp_put.obj: C:/project/daq/qf/source/qmp_put.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qmp_put.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qte_arm.obj: C:/project/daq/qf/source/qte_arm.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_arm.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qte_ctor.obj: C:/project/daq/qf/source/qte_ctor.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_ctor.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qte_ctr.obj: C:/project/daq/qf/source/qte_ctr.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_ctr.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qte_darm.obj: C:/project/daq/qf/source/qte_darm.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_darm.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+qte_rarm.obj: C:/project/daq/qf/source/qte_rarm.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=16 --memory_model=large --preproc_with_compile --preproc_dependency="qte_rarm.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

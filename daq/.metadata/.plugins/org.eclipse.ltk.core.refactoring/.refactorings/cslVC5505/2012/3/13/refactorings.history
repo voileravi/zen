@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cslVC5505/Os_cpu_c.c&apos; to &apos;zen_cpu_c.c&apos;" description="Rename resource &apos;Os_cpu_c.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Os_cpu_c.c" name="zen_cpu_c.c" stamp="1333209036384" updateReferences="true"/>
+</session>

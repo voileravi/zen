@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project nor_writer ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -vcpu:3.3 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=32 --memory_model=large --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../norflash.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -vcpu:3.3 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=32 --memory_model=large --preproc_with_compile --preproc_dependency="norflash.pp"  "../norflash.c"
+'Finished building: ../norflash.c'
+' '
+'Building file: ../norflash_writer.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -vcpu:3.3 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --diag_warning=225 --ptrdiff_size=32 --memory_model=large --preproc_with_compile --preproc_dependency="norflash_writer.pp"  "../norflash_writer.c"
+'Finished building: ../norflash_writer.c'
+' '
+'Building target: nor_writer.out'
+'Invoking: C5500 Linker'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -vcpu:3.3 -g --diag_warning=225 --ptrdiff_size=32 --memory_model=large -z -m"nor_writer.map" --warn_sections -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/lib" -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --reread_libs --rom_model -o "nor_writer.out"  "./norflash_writer.obj" "./norflash.obj" "./main.obj" -l"rts55x.lib" "../lnkx.cmd" "../usbstk5515bsl.lib" 
+<Linking>
+'Finished building target: nor_writer.out'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,228 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../main.c \
+C:/project/daq/qf/source/qa_defer.c \
+C:/project/daq/qf/source/qa_fifo.c \
+C:/project/daq/qf/source/qa_get_.c \
+C:/project/daq/qf/source/qa_lifo.c \
+C:/project/daq/qf/source/qa_sub.c \
+C:/project/daq/qf/source/qa_usub.c \
+C:/project/daq/qf/source/qa_usuba.c \
+C:/project/daq/qep/source/qep.c \
+C:/project/daq/qf/source/qeq_fifo.c \
+C:/project/daq/qf/source/qeq_get.c \
+C:/project/daq/qf/source/qeq_init.c \
+C:/project/daq/qf/source/qeq_lifo.c \
+C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c \
+C:/project/daq/qf/source/qf_pspub.c \
+C:/project/daq/qf/source/qf_pwr2.c \
+C:/project/daq/qf/source/qf_tick.c \
+C:/project/daq/qep/source/qfsm_dis.c \
+C:/project/daq/qep/source/qfsm_ini.c \
+C:/project/daq/qep/source/qhsm_dis.c \
+C:/project/daq/qep/source/qhsm_in.c \
+C:/project/daq/qep/source/qhsm_ini.c \
+C:/project/daq/qep/source/qhsm_top.c \
+C:/project/daq/qk/source/qk.c \
+C:/project/daq/qk/source/qk_mutex.c \
+C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c \
+C:/project/daq/qk/source/qk_sched.c \
+C:/project/daq/qf/source/qmp_get.c \
+C:/project/daq/qf/source/qmp_init.c \
+C:/project/daq/qf/source/qmp_put.c \
+C:/project/daq/qf/source/qte_arm.c \
+C:/project/daq/qf/source/qte_ctor.c \
+C:/project/daq/qf/source/qte_ctr.c \
+C:/project/daq/qf/source/qte_darm.c \
+C:/project/daq/qf/source/qte_rarm.c 
+
+OBJS += \
+./main.obj \
+./qa_defer.obj \
+./qa_fifo.obj \
+./qa_get_.obj \
+./qa_lifo.obj \
+./qa_sub.obj \
+./qa_usub.obj \
+./qa_usuba.obj \
+./qep.obj \
+./qeq_fifo.obj \
+./qeq_get.obj \
+./qeq_init.obj \
+./qeq_lifo.obj \
+./qf_port.obj \
+./qf_pspub.obj \
+./qf_pwr2.obj \
+./qf_tick.obj \
+./qfsm_dis.obj \
+./qfsm_ini.obj \
+./qhsm_dis.obj \
+./qhsm_in.obj \
+./qhsm_ini.obj \
+./qhsm_top.obj \
+./qk.obj \
+./qk_mutex.obj \
+./qk_port.obj \
+./qk_sched.obj \
+./qmp_get.obj \
+./qmp_init.obj \
+./qmp_put.obj \
+./qte_arm.obj \
+./qte_ctor.obj \
+./qte_ctr.obj \
+./qte_darm.obj \
+./qte_rarm.obj 
+
+C_DEPS += \
+./main.pp \
+./qa_defer.pp \
+./qa_fifo.pp \
+./qa_get_.pp \
+./qa_lifo.pp \
+./qa_sub.pp \
+./qa_usub.pp \
+./qa_usuba.pp \
+./qep.pp \
+./qeq_fifo.pp \
+./qeq_get.pp \
+./qeq_init.pp \
+./qeq_lifo.pp \
+./qf_port.pp \
+./qf_pspub.pp \
+./qf_pwr2.pp \
+./qf_tick.pp \
+./qfsm_dis.pp \
+./qfsm_ini.pp \
+./qhsm_dis.pp \
+./qhsm_in.pp \
+./qhsm_ini.pp \
+./qhsm_top.pp \
+./qk.pp \
+./qk_mutex.pp \
+./qk_port.pp \
+./qk_sched.pp \
+./qmp_get.pp \
+./qmp_init.pp \
+./qmp_put.pp \
+./qte_arm.pp \
+./qte_ctor.pp \
+./qte_ctr.pp \
+./qte_darm.pp \
+./qte_rarm.pp 
+
+C_DEPS__QUOTED += \
+"main.pp" \
+"qa_defer.pp" \
+"qa_fifo.pp" \
+"qa_get_.pp" \
+"qa_lifo.pp" \
+"qa_sub.pp" \
+"qa_usub.pp" \
+"qa_usuba.pp" \
+"qep.pp" \
+"qeq_fifo.pp" \
+"qeq_get.pp" \
+"qeq_init.pp" \
+"qeq_lifo.pp" \
+"qf_port.pp" \
+"qf_pspub.pp" \
+"qf_pwr2.pp" \
+"qf_tick.pp" \
+"qfsm_dis.pp" \
+"qfsm_ini.pp" \
+"qhsm_dis.pp" \
+"qhsm_in.pp" \
+"qhsm_ini.pp" \
+"qhsm_top.pp" \
+"qk.pp" \
+"qk_mutex.pp" \
+"qk_port.pp" \
+"qk_sched.pp" \
+"qmp_get.pp" \
+"qmp_init.pp" \
+"qmp_put.pp" \
+"qte_arm.pp" \
+"qte_ctor.pp" \
+"qte_ctr.pp" \
+"qte_darm.pp" \
+"qte_rarm.pp" 
+
+OBJS__QUOTED += \
+"main.obj" \
+"qa_defer.obj" \
+"qa_fifo.obj" \
+"qa_get_.obj" \
+"qa_lifo.obj" \
+"qa_sub.obj" \
+"qa_usub.obj" \
+"qa_usuba.obj" \
+"qep.obj" \
+"qeq_fifo.obj" \
+"qeq_get.obj" \
+"qeq_init.obj" \
+"qeq_lifo.obj" \
+"qf_port.obj" \
+"qf_pspub.obj" \
+"qf_pwr2.obj" \
+"qf_tick.obj" \
+"qfsm_dis.obj" \
+"qfsm_ini.obj" \
+"qhsm_dis.obj" \
+"qhsm_in.obj" \
+"qhsm_ini.obj" \
+"qhsm_top.obj" \
+"qk.obj" \
+"qk_mutex.obj" \
+"qk_port.obj" \
+"qk_sched.obj" \
+"qmp_get.obj" \
+"qmp_init.obj" \
+"qmp_put.obj" \
+"qte_arm.obj" \
+"qte_ctor.obj" \
+"qte_ctr.obj" \
+"qte_darm.obj" \
+"qte_rarm.obj" 
+
+C_SRCS__QUOTED += \
+"../main.c" \
+"C:/project/daq/qf/source/qa_defer.c" \
+"C:/project/daq/qf/source/qa_fifo.c" \
+"C:/project/daq/qf/source/qa_get_.c" \
+"C:/project/daq/qf/source/qa_lifo.c" \
+"C:/project/daq/qf/source/qa_sub.c" \
+"C:/project/daq/qf/source/qa_usub.c" \
+"C:/project/daq/qf/source/qa_usuba.c" \
+"C:/project/daq/qep/source/qep.c" \
+"C:/project/daq/qf/source/qeq_fifo.c" \
+"C:/project/daq/qf/source/qeq_get.c" \
+"C:/project/daq/qf/source/qeq_init.c" \
+"C:/project/daq/qf/source/qeq_lifo.c" \
+"C:/project/daq/ports/tms320c55x/qk/c5500/src/qf_port.c" \
+"C:/project/daq/qf/source/qf_pspub.c" \
+"C:/project/daq/qf/source/qf_pwr2.c" \
+"C:/project/daq/qf/source/qf_tick.c" \
+"C:/project/daq/qep/source/qfsm_dis.c" \
+"C:/project/daq/qep/source/qfsm_ini.c" \
+"C:/project/daq/qep/source/qhsm_dis.c" \
+"C:/project/daq/qep/source/qhsm_in.c" \
+"C:/project/daq/qep/source/qhsm_ini.c" \
+"C:/project/daq/qep/source/qhsm_top.c" \
+"C:/project/daq/qk/source/qk.c" \
+"C:/project/daq/qk/source/qk_mutex.c" \
+"C:/project/daq/ports/tms320c55x/qk/c5500/src/qk_port.c" \
+"C:/project/daq/qk/source/qk_sched.c" \
+"C:/project/daq/qf/source/qmp_get.c" \
+"C:/project/daq/qf/source/qmp_init.c" \
+"C:/project/daq/qf/source/qmp_put.c" \
+"C:/project/daq/qf/source/qte_arm.c" \
+"C:/project/daq/qf/source/qte_ctor.c" \
+"C:/project/daq/qf/source/qte_ctr.c" \
+"C:/project/daq/qf/source/qte_darm.c" \
+"C:/project/daq/qf/source/qte_rarm.c" 
+
+

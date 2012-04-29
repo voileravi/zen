@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112052
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112193
+started,bundle,com.ti.dvt.symbolmanager,3.1.0.201106101153,"com.ti.dvt.symbolmanager",1334414112318
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112349
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112489
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112583
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112661
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112786
+started,bundle,com.ti.dvt.via.plugin,3.1.0.201106101153,"com.ti.dvt.via.plugin",1334414112832
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112879
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414112942
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113113
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113222
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113363
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113503
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113566
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414113690
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.asm.AsmEditor",1334414113768
+opened,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.asm.AsmEditor",1334414113846
+started,bundle,com.ti.dvt.coverageplugin,3.1.0.201106101153,"com.ti.dvt.coverageplugin",1334414115734
+started,bundle,com.ti.util.ui,3.1.0.201106101153,"com.ti.util.ui",1334414115843
+started,bundle,com.ti.dvt.graph.visualization,3.1.0.201106101153,"com.ti.dvt.graph.visualization",1334414115906
+started,bundle,com.ti.dvt.rovsupport,3.1.0.201106101153,"com.ti.dvt.rovsupport",1334414119119
+started,bundle,com.ti.dvt.trace,3.1.0.201106101153,"com.ti.dvt.trace",1334414119634
+started,bundle,com.ti.dvt.trace.control,3.1.0.201106101153,"com.ti.dvt.trace.control",1334414119634
+started,bundle,com.ti.dvt.via.plugin.ccs,3.1.0.201106101153,"com.ti.dvt.via.plugin.ccs",1334414119728
+started,bundle,com.ti.uia.autostart.view,3.1.0.201106101153,"com.ti.uia.autostart.view",1334414119852
+started,bundle,com.ti.uia.sessionmgr.view,3.1.0.201106101153,"com.ti.uia.sessionmgr.view",1334414119977
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414120400
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414132249
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414137865
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334414137865
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414146820
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414214805
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334414214805
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414221793
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414268559
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414277030
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414326014
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334414326030
+error,log,,,"Exception occurred while saving project preferences: /CSL_USB_IsoFullSpeedExample_ezdsp_Out/.settings/org.eclipse.cdt.debug.core.prefs.",1334414326576
+error,log,,,"Exception occurred while saving project preferences: /pal_sys_bios_lib/.settings/org.eclipse.cdt.debug.core.prefs.",1334414326576
+error,log,,,"Exception occurred while saving project preferences: /i2s_bios_drv_lib/.settings/org.eclipse.cdt.debug.core.prefs.",1334414326576
+error,log,,,"Exception occurred while saving project preferences: /i2c_bios_drv_lib/.settings/org.eclipse.cdt.debug.core.prefs.",1334414326576
+error,log,,,"Internal error logged from CDI Debug: ",1334414326576
+error,log,,,"Internal error logged from CDI Debug: ",1334414326591
+error,log,,,"Internal error logged from CDI Debug: ",1334414326591
+error,log,,,"Internal error logged from CDI Debug: ",1334414326591
+started,bundle,com.ti.ccstudio.binaryparser,5.1.0.201106301400,"com.ti.ccstudio.binaryparser",1334414328510
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414328619
+started,bundle,org.eclipse.compare,3.5.200.I20110419-0800,"org.eclipse.compare",1334414336435
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414345592
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414350366
+executed,command,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.project.cleanAction",1334414350366
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414350756
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414356496
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334414388929
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414396901
+started,bundle,com.ti.ccstudio.ui.forms,5.1.0.201106301400,"com.ti.ccstudio.ui.forms",1334414407571
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414411955
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414412001
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334414423717
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414433966
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414434013
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414434013
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414437211
+opened,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334414456259
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334414456290
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414463903
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414463934
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414514634
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414514634
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334414515492
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414518206
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414521607
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.properties",1334414521607
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414525398
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334414733580
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414751115
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414752706
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.edit.delete",1334414752706
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414755904
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414811970
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414812017
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414812126
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414849801
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334414849801
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334414857055
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414867600
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414871687
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414878988
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414891007
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414894626
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414898713
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414902332
+executed,command,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.project.cleanAction",1334414902348
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414902644
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414903315
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334414910210
+opened,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414918275
+activated,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414918307
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414929289
+closed,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414929289
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414935311
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414943345
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414954265
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110427-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1334414954265
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.edit.delete",1334414954265
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334414958212
+opened,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414965434
+activated,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414965466
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334414968055
+closed,editor,org.eclipse.ui.editors,3.7.0.v20110427-1800,"org.eclipse.ui.DefaultTextEditor",1334414968055
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414970848
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334414980223
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334414995761
+error,log,,,"Core exception while retrieving the content description",1334414997368
+error,log,,,"Core exception while retrieving the content description",1334414997383
+error,log,,,"Core exception while retrieving the content description",1334414997383
+error,log,,,"Core exception while retrieving the content description",1334414997383
+error,log,,,"Core exception while retrieving the content description",1334414997399
+error,log,,,"Core exception while retrieving the content description",1334414997399
+error,log,,,"Core exception while retrieving the content description",1334414997399
+error,log,,,"Core exception while retrieving the content description",1334414997414
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334414999052
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334415033045
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.properties",1334415033107
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334415037335
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334415184599
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334415204864
+started,bundle,org.eclipse.cdt.managedbuilder.ui,8.0.0.201105021546,"org.eclipse.cdt.managedbuilder.ui",1334415204942
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334415796339
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.properties",1334415796401
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334415799162
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334415810254
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416000112
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334416035618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416038753
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416049502
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.properties",1334416049533
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334416051873
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416059517
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416061358
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416072543
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416075538
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416138282
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416151651
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416151698
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416151838
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334416182211
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416182211
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334416182835
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416185425
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416186876
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.edit.delete",1334416186876
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416190121
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416218918
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416218965
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416219090
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334416264174
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416264174
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334416266030
+error,log,,,"Core exception while retrieving the content description",1334416266108
+error,log,,,"Core exception while retrieving the content description",1334416266108
+error,log,,,"Core exception while retrieving the content description",1334416266108
+error,log,,,"Core exception while retrieving the content description",1334416266124
+error,log,,,"Core exception while retrieving the content description",1334416266124
+error,log,,,"Core exception while retrieving the content description",1334416266124
+error,log,,,"Core exception while retrieving the content description",1334416266139
+error,log,,,"Core exception while retrieving the content description",1334416266139
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334416271069
+activated,view,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView",1334416274860
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416279914
+opened,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416294890
+activated,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416294921
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416295046
+activated,editor,org.eclipse.cdt.ui,5.3.0.201105021546,"org.eclipse.cdt.ui.editor.CEditor",1334416315124
+closed,editor,com.ti.ccstudio.system.setup.ui,5.1.0.201106301400,"com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor",1334416315124
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416321083
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416327307
+executed,command,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.project.cleanAction",1334416327323
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416327604
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416328290
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334416335279
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416358351
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416375122
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416379319
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416482622
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416490734
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416583227
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416590075
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416613491
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.help.aboutAction",1334416613491
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334416615394
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416621057
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416669829
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334416669845
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416678799
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416786731
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416791692
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416874372
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334416874388
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416883654
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416887804
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110427-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1334416887820
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.edit.delete",1334416887820
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416891548
+error,log,,,"Exception occurred while saving project preferences: /CSL_USB_IsoFullSpeedExample_ezdsp_Out/.settings/org.eclipse.cdt.debug.core.prefs.",1334416927225
+error,log,,,"Internal error logged from CDI Debug: ",1334416927241
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416927256
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.import",1334416927288
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334416937006
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334416939502
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416942888
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416944760
+executed,command,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.project.cleanAction",1334416944760
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416945056
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334416945711
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334416951873
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334417004617
+error,log,,,"Core exception while retrieving the content description",1334417008143
+error,log,,,"Core exception while retrieving the content description",1334417008158
+error,log,,,"Core exception while retrieving the content description",1334417008158
+error,log,,,"Core exception while retrieving the content description",1334417008158
+error,log,,,"Core exception while retrieving the content description",1334417008158
+error,log,,,"Core exception while retrieving the content description",1334417008174
+error,log,,,"Core exception while retrieving the content description",1334417008174
+error,log,,,"Core exception while retrieving the content description",1334417008174
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417013244
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417035146
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.file.properties",1334417035209
+error,log,,,"Core exception while retrieving the content description",1334417036160
+error,log,,,"Core exception while retrieving the content description",1334417036160
+error,log,,,"Core exception while retrieving the content description",1334417036160
+error,log,,,"Core exception while retrieving the content description",1334417036160
+error,log,,,"Core exception while retrieving the content description",1334417036176
+error,log,,,"Core exception while retrieving the content description",1334417036176
+error,log,,,"Core exception while retrieving the content description",1334417036176
+error,log,,,"Core exception while retrieving the content description",1334417036191
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417039155
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417040825
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110427-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1334417040840
+executed,command,org.eclipse.ui,3.7.0.I20110426-2000,"org.eclipse.ui.edit.delete",1334417040840
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417049841
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417051916
+executed,command,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.project.cleanAction",1334417051932
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417052213
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110426-2000,"",1334417052977
+activated,view,org.eclipse.ui.ide,3.7.0.I20110425-1800,"org.eclipse.ui.views.ProblemView",1334417055208
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1334417067579

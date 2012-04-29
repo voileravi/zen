@@ -1,0 +1,37 @@
+
+**** Build of configuration Debug for project dpp ****
+
+C:\Program Files\Texas Instruments\ccsv5\ccsv5\utils\bin\gmake -k all 
+'Building file: ../bsp.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="bsp.pp"  "../bsp.c"
+'Finished building: ../bsp.c'
+' '
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../philo.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="philo.pp"  "../philo.c"
+'Finished building: ../philo.c'
+' '
+'Building file: ../table.c'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="table.pp"  "../table.c"
+'Finished building: ../table.c'
+' '
+'Building file: ../vectors.asm'
+'Invoking: C5500 Compiler'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="vectors.pp"  "../vectors.asm"
+'Finished building: ../vectors.asm'
+' '
+'Building target: dpp.out'
+'Invoking: C5500 Linker'
+"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large -z -m"dpp.map" --warn_sections -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/lib" -i"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --reread_libs --rom_model -o "dpp.out"  "./vectors.obj" "./table.obj" "./philo.obj" "./main.obj" "./bsp.obj" -l"C:\project\daq\examples\tms320c55x\c55xx_csl\build\Debug\cslVC5505_Lib.lib" -l"C:\project\daq\ports\tms320c55x\vanilla\c5500\dbg\qp5515_large.lib" -l"libc.a" "../C5515.cmd" 
+<Linking>
+'Finished building target: dpp.out'
+' '
+
+**** Build Finished ****

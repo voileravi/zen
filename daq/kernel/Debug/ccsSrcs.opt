@@ -1,0 +1,1 @@
+"../TEST.C" "../autoinit.asm" "../boot.asm" "../core.c" "../cpu_c.c" "../dbg_r.c" "../demo.c" "../flag.c" "../mbox.c" "../mem.c" "../mutex.c" "../queue.c" "../sem.c" "../task.c" "../time.c" "../tmr.c" "../util.c" "../zen.c" 

@@ -1,0 +1,95 @@
+;****************************************************************************
+; Interrupt Vector Table
+;
+; 32 interrupt vector addresses.  Each is 64 bits long.  The first 32 bits
+; contains the 24-bit program address of the Interrupt Service Routine (ISR).
+; The second 32 bits are executed before transferring control to the ISR.
+;****************************************************************************
+	.C54CM_off
+    .CPL_off
+    .ARMS_off
+    .sect   "vectors"
+    .align  256
+    .global _VECSTART
+
+;****************************************************************************
+;* Point Reset Vector to C Environment Entry Point
+;****************************************************************************
+   	.def 	_Reset
+    .ref    _c_int00
+	.ref	_TINT_isr
+	.ref	_RTC_isr
+	.ref	_illegal_isr
+_VECSTART:
+
+;****************************************************************************
+;* interrupt vector definitions
+;****************************************************************************
+    .if __TMS320C55X_PLUS_BYTE__
+_Reset:    .ivec _c_int00, STK_LINEAR | RET_FAST | DATA_PTR_BYTE
+    .else
+_Reset:    .ivec _c_int00, USE_RETA
+    .endif
+NMI:		.ivec    nmi_isr	       ; Nonmaskable Interrupt
+
+INT0:		.ivec    int0_isr          ; External User Interrupt #0
+
+INT1:		.ivec    int1_isr	       ; External User Interrupt #1
+
+TINT:		.ivec    _TINT_isr	       ; Timer #0 / Software Interrupt #4
+
+PROG0:		.ivec    i2s0_mmc0_tx_isr  ; Programmable 0 Interrupt
+
+UART:		.ivec    uart_isr		   ; IIS #1 Receive Interrupt
+
+PROG1:		.ivec    i2s0_mmc0_rx_isr  ; Programmable 1 Interrupt
+
+DMA:		.ivec    dma_isr           ; DMA Interrupt
+
+PROG2:		.ivec    i2s1_mmc1_tx_isr  ; Programmable 2 Interrupt
+
+COPROCFFT:  .ivec    coprocfft_isr	   ; Coprocessor FFT Module Interrupt
+
+PROG3:		.ivec    i2s1_mmc1_rx_isr  ; Programmable 3 Interrupt
+
+LCD:		.ivec	 lcd_isr		   ; LCD Interrupt
+
+SARADC:		.ivec    saradc_isr		   ; SAR ADC Interrupt
+
+XMT2:		.ivec	 i2s2_tx_isr	   ; I2S2 Tx Interrupt
+
+RCV2:		.ivec	 i2s2_rx_isr	   ; I2S2 Rx Interrupt
+
+XMT3:		.ivec	 i2s3_tx_isr	   ; I2S3 Tx Interrupt
+
+RCV3:		.ivec	 i2s3_rx_isr	   ; I2S3 Rx Interrupt
+
+RTC:		.ivec    _RTC_isr		   ; RTC interrupt
+
+SPI:    	.ivec    spi_isr		   ; SPI Receive Interrupt
+
+USB:		.ivec    usb_isr		   ; USB Transmit Interrupt
+
+GPIO:		.ivec    gpio_isr		   ; GPIO Interrupt
+
+EMIF:	    .ivec    emif_error_isr	   ; EMIF Error Interrupt
+
+I2C:		.ivec    i2c_isr		   ; IIC interrupt
+
+BERR:		.ivec    berr_isr		   ; Bus Error Interrupt
+
+DLOG:		.ivec    dlog_isr		   ; Emulation Interrupt - DLOG
+
+RTOS:		.ivec    rtos_isr		   ; Emulation Interrupt - RTOS
+
+RTDXRCV:	.ivec    rtdxrcv_isr	   ; Emulation Interrupt - RTDX receive
+
+RTDXXMT:	.ivec    rtdxxmt_isr	   ; Emulation Interrupt - RTDX transmit
+
+EMUINT:		.ivec    emuint_isr		   ; Emulation monitor mode interrupt
+
+SINT30:		.ivec    sint30_isr		   ; Software Interrupt #30
+
+SINT31:		.ivec    sint31_isr		   ; Software Interrupt #31
+
+    .end

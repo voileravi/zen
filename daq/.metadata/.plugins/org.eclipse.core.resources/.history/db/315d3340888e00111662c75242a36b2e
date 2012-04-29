@@ -1,0 +1,181 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+csl_audioClass.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_audioClass.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_audioClass.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_cdc.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_cdc.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_cdc.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_dat.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_dat.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_dat.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_dma.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_dma.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_dma.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_gpio.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_gpio.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_gpio.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_gpt.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_gpt.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_gpt.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_i2c.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_i2c.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_i2c.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_i2s.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_i2s.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_i2s.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_intc.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_intc.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_intc.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_irqplug.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_irqplug.asm $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_irqplug.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_lcdc.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_lcdc.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_lcdc.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_mem.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_mem.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_mem.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_mmcsd.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_mmcsd.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_mmcsd.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_mmcsd_ataIf.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_mmcsd_ataIf.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_mmcsd_ataIf.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_msc.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_msc.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_msc.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_nand.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_nand.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_nand.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_pll.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_pll.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_pll.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_rtc.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_rtc.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_rtc.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_sar.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_sar.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_sar.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_sdio.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_sdio.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_sdio.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_spi.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_spi.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_spi.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_uart.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_uart.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_uart.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_usb.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_usb.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_usb.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+csl_wdt.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/csl_wdt.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="csl_wdt.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+vectors.obj: C:/project/daq/examples/tms320c55x/c55xx_csl/src/vectors.asm $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C5500 Compiler'
+	"C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/bin/cl55" -v5515 -g --include_path="C:/Program Files/Texas Instruments/ccsv5/ccsv5/tools/compiler/c5500/include" --include_path="C:/project/daq/examples/tms320c55x/c55xx_csl/inc" --include_path="C:/project/daq/ports/tms320c55x/qk/c5500" --diag_warning=225 --ptrdiff_size=16 --algebraic --memory_model=large --preproc_with_compile --preproc_dependency="vectors.pp" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
